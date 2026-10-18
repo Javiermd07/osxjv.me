@@ -1,0 +1,1795 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CataTukar - Ekosistem Barter Catatan</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,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">
+    <link rel="apple-touch-icon" href="data:image/png;base64,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">
+    <meta name="theme-color" content="#0284c7">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            500: '#0ea5e9',
+                            600: '#0284c7',
+                            900: '#0c4a6e',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { -webkit-tap-highlight-color: transparent; }
+        .hide-scrollbar::-webkit-scrollbar { display: none; }
+        .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        @keyframes slideInUp {
+            from { transform: translateY(100%); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        .toast-enter { animation: slideInUp 0.3s ease-out forwards; }
+        @keyframes pop {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.25); }
+            100% { transform: scale(1); }
+        }
+        .pop-anim { animation: pop 0.25s ease-out; }
+    .flash-new { animation: flashNew 2.6s ease-out; }
+        @keyframes flashNew { 0%,50% { box-shadow: 0 0 0 3px rgba(16,185,129,.65); } 100% { box-shadow: 0 0 0 0 rgba(16,185,129,0); } }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    @keyframes shake { 0%,100% { transform: translateX(0); } 20%,60% { transform: translateX(-6px); } 40%,80% { transform: translateX(6px); } }
+.shake { animation: shake .35s ease-in-out; }
+@keyframes slideUp { from { transform: translateY(100%); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+.slide-up { animation: slideUp .3s ease-out forwards; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+.fade-in { animation: fadeIn .35s ease-out; }
+</style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans min-h-screen flex flex-col">
+
+    <!-- Top Navigation -->
+    <nav class="bg-white border-b border-slate-200 sticky top-0 z-40 shadow-sm">
+        <div class="max-w-md mx-auto px-4 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-2 cursor-pointer" onclick="navigate('home')">
+                <img data-asset="logo" alt="CataTukar" class="h-8 w-auto">
+            </div>
+            
+            <!-- Quota Indicator -->
+            <div class="flex items-center gap-3">
+                <div class="bg-brand-50 border border-brand-100 px-3 py-1 rounded-full flex items-center gap-2">
+                    <i class="fas fa-unlock text-brand-500 text-sm"></i>
+                    <span class="text-sm font-semibold text-brand-700" id="quota-counter">Kuota: 0</span>
+                </div>
+                <div class="w-8 h-8 rounded-full bg-slate-200 overflow-hidden border border-slate-300 cursor-pointer" onclick="navigate('profile')">
+                    <img data-me="0284c7,fff" src="https://ui-avatars.com/api/?name=Javier+MD&background=0284c7&color=fff" alt="Profile" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Mobile Container -->
+    <main class="flex-1 w-full max-w-md mx-auto bg-white shadow-sm relative pb-20 overflow-x-hidden" id="app-container">
+        
+        <!-- ================= VIEW: HOME (BERANDA) ================= -->
+        <div id="view-home" class="block w-full">
+            <div class="bg-brand-600 text-white p-5 rounded-b-2xl shadow-md">
+                <h1 class="text-xl font-bold mb-1">Cari Referensi Ujian</h1>
+                <p class="text-brand-100 text-sm mb-2">Temukan catatan sesuai prodi dan matkul.</p>
+                <div class="inline-flex items-center gap-1.5 bg-white/20 px-2.5 py-1 rounded-full text-[11px] font-bold mb-4"><i class="fas fa-calendar-days"></i> Semester Ganjil 2026/2027</div>
+
+                <!-- Search bar -->
+                <div class="relative mb-3">
+                    <i class="fas fa-search absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-sm"></i>
+                    <input id="search-input" type="text" oninput="renderFeed()" placeholder='Cari kata kunci, misal: "UTS" atau "IMK"' class="w-full bg-white text-slate-800 rounded-xl py-2.5 pl-9 pr-9 text-sm outline-none shadow-inner placeholder:text-slate-400">
+                    <button id="search-clear" onclick="clearSearch()" class="hidden absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600" aria-label="Hapus pencarian"><i class="fas fa-times-circle"></i></button>
+                </div>
+
+                <div class="space-y-3 bg-white p-3 rounded-xl shadow-inner">
+                    <div class="flex gap-2 text-slate-700 items-center bg-slate-50 p-2 rounded-lg border border-slate-200">
+                        <i class="fas fa-graduation-cap text-slate-400 w-5 text-center"></i>
+                        <select id="filter-prodi" onchange="onProdiChange()" class="bg-transparent w-full outline-none text-sm font-medium appearance-none">
+                            <option value="all">Semua Prodi</option>
+                            <option value="pm">Pendidikan Multimedia</option>
+                            <option value="tk">Teknik Komputer</option>
+                            <option value="rpl">Rekayasa Perangkat Lunak</option>
+                            <option value="pgsd">PGSD</option>
+                            <option value="pgpaud">PGPAUD</option>
+                        </select>
+                        <i class="fas fa-chevron-down text-slate-400 text-xs"></i>
+                    </div>
+                    <div class="flex gap-2 text-slate-700 items-center bg-slate-50 p-2 rounded-lg border border-slate-200">
+                        <i class="fas fa-book text-slate-400 w-5 text-center"></i>
+                        <select id="filter-course" onchange="renderFeed()" class="bg-transparent w-full outline-none text-sm font-medium appearance-none">
+                            <option value="all">Semua Mata Kuliah</option>
+                            <option value="dt">Desain Berpikir (Design Thinking)</option>
+                            <option value="imk">Interaksi Manusia dan Komputer</option>
+                            <option value="pw">Pemrograman Web</option>
+                        </select>
+                        <i class="fas fa-chevron-down text-slate-400 text-xs"></i>
+                    </div>
+                    <div class="flex gap-2 text-slate-700 items-center bg-slate-50 p-2 rounded-lg border border-slate-200">
+                        <i class="fas fa-calendar-days text-slate-400 w-5 text-center"></i>
+                        <select id="filter-sem" onchange="renderFeed()" class="bg-transparent w-full outline-none text-sm font-medium appearance-none">
+                            <option value="all">Semua Semester</option>
+                            <option value="Ganjil 2026/2027">Ganjil 2026/2027 (semester ini)</option>
+                            <option value="Genap 2025/2026">Genap 2025/2026</option>
+                        </select>
+                        <i class="fas fa-chevron-down text-slate-400 text-xs"></i>
+                    </div>
+                    <button onclick="applyFilter()" class="w-full bg-brand-500 hover:bg-brand-600 text-white font-semibold py-2 rounded-lg text-sm transition-colors">
+                        Terapkan Filter
+                    </button>
+                </div>
+            </div>
+
+            <!-- Feed -->
+            <div class="p-4">
+                <div class="flex justify-between items-center mb-4">
+                    <h2 class="text-sm font-bold text-slate-800">Daftar Catatan <span id="feed-count" class="text-xs font-medium text-slate-400 ml-1"></span></h2>
+                    <button onclick="resetFilters()" class="text-xs text-brand-600 font-medium">Reset Filter</button>
+                </div>
+                <div id="sort-chips" class="flex gap-2 overflow-x-auto pb-3 no-scrollbar"></div>
+                <div id="note-feed" class="space-y-4"></div>
+            </div>
+        </div>
+
+        <!-- ================= VIEW: DETAIL CATATAN ================= -->
+        <div id="view-detail" class="hidden w-full bg-white min-h-full">
+            <div class="flex items-center gap-3 p-4 border-b border-slate-100 sticky top-0 bg-white z-10">
+                <button onclick="navigate('home')" class="w-8 h-8 flex items-center justify-center rounded-full hover:bg-slate-100 text-slate-600">
+                    <i class="fas fa-arrow-left"></i>
+                </button>
+                <h1 class="font-bold text-slate-800 text-lg uppercase tracking-wide">Detail Catatan</h1>
+            </div>
+            <div id="detail-body" class="p-4"></div>
+        </div>
+
+        <!-- ================= VIEW: FORUM (MICROBLOGGING) ================= -->
+        <div id="view-forum" class="hidden w-full">
+            <div class="bg-gradient-to-br from-brand-600 to-brand-500 text-white p-5 rounded-b-2xl shadow-md">
+                <h1 class="text-xl font-bold mb-1">Forum Diskusi</h1>
+                <p class="text-brand-100 text-sm">Tanya materi, minta catatan, atau bagikan tips ujian.</p>
+            </div>
+
+            <div class="p-4">
+                <!-- Composer -->
+                <div class="border border-slate-200 rounded-xl p-3 mb-5 bg-white shadow-sm">
+                    <div class="flex gap-3">
+                        <img data-me="0284c7,fff" src="https://ui-avatars.com/api/?name=Javier+MD&background=0284c7&color=fff" class="w-9 h-9 rounded-full border border-slate-200">
+                        <textarea id="forum-input" rows="2" id-ph="1" placeholder="Apa yang ingin kamu tanyakan, Javier?" class="w-full text-sm resize-none outline-none bg-slate-50 rounded-lg p-2.5 border border-slate-200 focus:border-brand-500 transition-colors"></textarea>
+                    </div>
+                    <div class="flex items-center justify-between mt-2 pl-12">
+                        <div class="flex gap-3 text-slate-400">
+                            <i class="fas fa-image cursor-pointer hover:text-brand-500"></i>
+                            <i class="fas fa-paperclip cursor-pointer hover:text-brand-500"></i>
+                            <i class="fas fa-hashtag cursor-pointer hover:text-brand-500"></i>
+                        </div>
+                        <button onclick="submitPost()" class="bg-brand-500 hover:bg-brand-600 text-white text-sm font-semibold px-4 py-1.5 rounded-lg transition-colors flex items-center gap-2">
+                            <i class="fas fa-paper-plane text-xs"></i> Kirim
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Filter chips -->
+                <div class="flex gap-2 mb-4 overflow-x-auto hide-scrollbar">
+                    <span class="text-xs font-semibold bg-brand-500 text-white px-3 py-1.5 rounded-full whitespace-nowrap">Semua</span>
+                    <span class="text-xs font-semibold bg-slate-100 text-slate-600 px-3 py-1.5 rounded-full whitespace-nowrap cursor-pointer hover:bg-slate-200">Request Catatan</span>
+                    <span class="text-xs font-semibold bg-slate-100 text-slate-600 px-3 py-1.5 rounded-full whitespace-nowrap cursor-pointer hover:bg-slate-200">Tanya Materi</span>
+                    <span class="text-xs font-semibold bg-slate-100 text-slate-600 px-3 py-1.5 rounded-full whitespace-nowrap cursor-pointer hover:bg-slate-200">Info Ujian</span>
+                </div>
+
+                <!-- Feed -->
+                <div id="forum-feed" class="space-y-4">
+
+                    <!-- Post 1 -->
+                    <div class="border border-slate-200 rounded-xl p-4 bg-white">
+                        <div class="flex items-center justify-between mb-3">
+                            <div class="flex items-center gap-2">
+                                <img src="https://ui-avatars.com/api/?name=Sarah+A&background=random" class="w-8 h-8 rounded-full">
+                                <div>
+                                    <p class="text-xs font-bold text-slate-800">Sarah Amelia</p>
+                                    <p class="text-[10px] text-slate-400">Pendidikan Multimedia '21 · 2 jam lalu</p>
+                                </div>
+                            </div>
+                            <span class="text-[10px] font-bold bg-amber-100 text-amber-700 px-2 py-1 rounded-full">Request</span>
+                        </div>
+                        <p class="text-sm text-slate-700 leading-relaxed mb-3">
+                            Ada yang punya catatan <span class="font-semibold text-brand-600">Pemrograman Web pertemuan 5-7</span>? Materi DOM & Event handling nih, besok UTS 😭
+                        </p>
+                        <div class="flex items-center gap-5 pt-3 border-t border-slate-100">
+                            <button onclick="togglePostLike(this)" class="flex items-center gap-1.5 text-xs font-medium text-slate-500 hover:text-rose-500 transition-colors">
+                                <i class="far fa-heart"></i> <span class="like-count">12</span>
+                            </button>
+                            <button onclick="showToast('Fitur komentar segera hadir')" class="flex items-center gap-1.5 text-xs font-medium text-slate-500 hover:text-brand-600 transition-colors">
+                                <i class="far fa-comment"></i> 4
+                            </button>
+                            <button onclick="showToast('Tautan disalin!', 'success')" class="flex items-center gap-1.5 text-xs font-medium text-slate-500 hover:text-brand-600 transition-colors ml-auto">
+                                <i class="fas fa-share"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Post 2 -->
+                    <div class="border border-slate-200 rounded-xl p-4 bg-white">
+                        <div class="flex items-center justify-between mb-3">
+                            <div class="flex items-center gap-2">
+                                <img src="https://ui-avatars.com/api/?name=Budi+S&background=random" class="w-8 h-8 rounded-full">
+                                <div>
+                                    <p class="text-xs font-bold text-slate-800">Budi Santoso <i class="fas fa-medal text-yellow-500 ml-0.5"></i></p>
+                                    <p class="text-[10px] text-slate-400">Pendidikan Multimedia '21 · 5 jam lalu</p>
+                                </div>
+                            </div>
+                            <span class="text-[10px] font-bold bg-blue-100 text-blue-700 px-2 py-1 rounded-full">Tips</span>
+                        </div>
+                        <p class="text-sm text-slate-700 leading-relaxed mb-3">
+                            Buat yang mau UTS Design Thinking: fokus di <span class="font-semibold">Empathy Map</span> dan <span class="font-semibold">How Might We</span>. Itu 60% soal tahun lalu. Catatan gua udah gua upload ya, cek di beranda! 🚀
+                        </p>
+                        <div class="flex items-center gap-5 pt-3 border-t border-slate-100">
+                            <button onclick="togglePostLike(this)" class="flex items-center gap-1.5 text-xs font-medium text-rose-500 transition-colors">
+                                <i class="fas fa-heart"></i> <span class="like-count">28</span>
+                            </button>
+                            <button onclick="showToast('Fitur komentar segera hadir')" class="flex items-center gap-1.5 text-xs font-medium text-slate-500 hover:text-brand-600 transition-colors">
+                                <i class="far fa-comment"></i> 9
+                            </button>
+                            <button onclick="showToast('Tautan disalin!', 'success')" class="flex items-center gap-1.5 text-xs font-medium text-slate-500 hover:text-brand-600 transition-colors ml-auto">
+                                <i class="fas fa-share"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- ================= VIEW: PROFIL & GAMIFIKASI ================= -->
+        <div id="view-profile" class="hidden w-full">
+            <!-- Header Profil -->
+            <div class="bg-gradient-to-br from-brand-600 to-brand-500 text-white px-5 pt-6 pb-14 rounded-b-3xl shadow-md">
+                <div class="flex items-center gap-4">
+                    <div class="relative">
+                        <img data-me="ffffff,0284c7" src="https://ui-avatars.com/api/?name=Javier+MD&background=ffffff&color=0284c7" class="w-20 h-20 rounded-full border-4 border-white/40 shadow-lg">
+                        <div class="absolute -bottom-1 -right-1 bg-yellow-400 text-yellow-900 rounded-full w-7 h-7 flex items-center justify-center border-2 border-white shadow">
+                            <i class="fas fa-medal text-xs"></i>
+                        </div>
+                    </div>
+                    <div class="flex-1">
+                        <h1 id="profile-name" class="text-xl font-bold leading-tight">Javier MD</h1>
+                        <p id="profile-prodi" class="text-brand-100 text-xs mt-0.5">Pendidikan Multimedia '22</p>
+                        <p id="profile-sem" class="text-brand-100 text-[11px] mt-0.5"></p>
+                        <div class="inline-flex items-center gap-1.5 bg-white/20 backdrop-blur px-2.5 py-1 rounded-full mt-2">
+                            <i class="fas fa-medal text-yellow-300 text-[10px]"></i>
+                            <span class="text-[10px] font-bold tracking-wide">TOP CONTRIBUTOR</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stats Card -->
+            <div class="px-4 -mt-8">
+                <div class="bg-white rounded-2xl shadow-lg border border-slate-100 p-4 grid grid-cols-3 divide-x divide-slate-100">
+                    <div class="flex flex-col items-center px-1">
+                        <span class="text-2xl font-bold text-brand-600" id="profile-quota">0</span>
+                        <span class="text-[10px] font-semibold text-slate-500 mt-1 text-center leading-tight">Kuota Unduh</span>
+                    </div>
+                    <div class="flex flex-col items-center px-1">
+                        <span class="text-2xl font-bold text-slate-800" id="profile-contributions">8</span>
+                        <span class="text-[10px] font-semibold text-slate-500 mt-1 text-center leading-tight">Catatan Diunggah</span>
+                    </div>
+                    <div class="flex flex-col items-center px-1">
+                        <span class="text-2xl font-bold text-slate-800" id="profile-downloads">23</span>
+                        <span class="text-[10px] font-semibold text-slate-500 mt-1 text-center leading-tight">Total Unduhan</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Progress lencana -->
+            <div class="px-4 mt-4">
+                <div class="bg-white border border-slate-100 rounded-2xl p-4 shadow-sm">
+                    <div class="flex items-center gap-3 mb-3">
+                        <div class="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center shrink-0"><i class="fas fa-trophy text-purple-500"></i></div>
+                        <div class="min-w-0">
+                            <p class="text-xs font-bold text-slate-800" id="progress-title"></p>
+                            <p class="text-[11px] text-slate-500" id="progress-sub"></p>
+                        </div>
+                    </div>
+                    <div class="h-2.5 bg-slate-100 rounded-full overflow-hidden">
+                        <div id="progress-bar" class="h-full bg-gradient-to-r from-brand-500 to-emerald-400 rounded-full transition-all duration-500" style="width:0%"></div>
+                    </div>
+                    <div class="flex justify-between text-[10px] text-slate-400 mt-1"><span id="progress-left"></span><span id="progress-right"></span></div>
+                    <div class="flex items-center justify-between mt-3"><button onclick="authResetDemo()" class="text-[11px] text-slate-400 underline">Reset demo</button><button onclick="openLogoutModal()" class="text-[11px] font-semibold text-rose-500"><i class="fas fa-right-from-bracket mr-1"></i>Keluar</button></div>
+                </div>
+            </div>
+
+            <!-- Badges / Gamifikasi -->
+            <div class="p-4">
+                <div class="flex items-center justify-between mb-3">
+                    <h2 class="text-sm font-bold text-slate-800">Koleksi Lencana</h2>
+                    <span class="text-xs text-slate-400 font-medium" id="badge-count">3 / 6 Terbuka</span>
+                </div>
+
+                <div class="grid grid-cols-3 gap-3">
+                    <!-- Badge unlocked -->
+                    <div class="flex flex-col items-center bg-white border border-yellow-200 rounded-xl p-3 shadow-sm">
+                        <div class="w-11 h-11 rounded-full bg-yellow-100 flex items-center justify-center mb-2">
+                            <i class="fas fa-medal text-yellow-500 text-lg"></i>
+                        </div>
+                        <span class="text-[10px] font-bold text-slate-700 text-center leading-tight">Top Contributor</span>
+                        <span class="text-[9px] text-slate-400 mt-0.5">5+ upload</span>
+                    </div>
+
+                    <!-- Badge unlocked -->
+                    <div class="flex flex-col items-center bg-white border border-brand-200 rounded-xl p-3 shadow-sm">
+                        <div class="w-11 h-11 rounded-full bg-brand-100 flex items-center justify-center mb-2">
+                            <i class="fas fa-bolt text-brand-600 text-lg"></i>
+                        </div>
+                        <span class="text-[10px] font-bold text-slate-700 text-center leading-tight">Rising Star</span>
+                        <span class="text-[9px] text-slate-400 mt-0.5">3+ upload</span>
+                    </div>
+
+                    <!-- Badge unlocked -->
+                    <div class="flex flex-col items-center bg-white border border-emerald-200 rounded-xl p-3 shadow-sm">
+                        <div class="w-11 h-11 rounded-full bg-emerald-100 flex items-center justify-center mb-2">
+                            <i class="fas fa-hand-holding-heart text-emerald-600 text-lg"></i>
+                        </div>
+                        <span class="text-[10px] font-bold text-slate-700 text-center leading-tight">Suka Berbagi</span>
+                        <span class="text-[9px] text-slate-400 mt-0.5">1 upload</span>
+                    </div>
+
+                    <!-- Badge locked -->
+                    <div id="badge-legenda" class="flex flex-col items-center bg-slate-50 border border-slate-200 rounded-xl p-3 opacity-60">
+                        <div class="w-11 h-11 rounded-full bg-slate-200 flex items-center justify-center mb-2">
+                            <i class="fas fa-lock text-slate-400 text-base"></i>
+                        </div>
+                        <span class="text-[10px] font-bold text-slate-500 text-center leading-tight">Legenda Kampus</span>
+                        <span class="text-[9px] text-slate-400 mt-0.5">10+ upload</span>
+                    </div>
+
+                    <!-- Badge locked -->
+                    <div class="flex flex-col items-center bg-slate-50 border border-slate-200 rounded-xl p-3 opacity-60">
+                        <div class="w-11 h-11 rounded-full bg-slate-200 flex items-center justify-center mb-2">
+                            <i class="fas fa-lock text-slate-400 text-base"></i>
+                        </div>
+                        <span class="text-[10px] font-bold text-slate-500 text-center leading-tight">Rating Sempurna</span>
+                        <span class="text-[9px] text-slate-400 mt-0.5">100 upvote</span>
+                    </div>
+
+                    <!-- Badge locked -->
+                    <div class="flex flex-col items-center bg-slate-50 border border-slate-200 rounded-xl p-3 opacity-60">
+                        <div class="w-11 h-11 rounded-full bg-slate-200 flex items-center justify-center mb-2">
+                            <i class="fas fa-lock text-slate-400 text-base"></i>
+                        </div>
+                        <span class="text-[10px] font-bold text-slate-500 text-center leading-tight">Diskusi Aktif</span>
+                        <span class="text-[9px] text-slate-400 mt-0.5">50 postingan</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Catatan Tersimpan -->
+            <div class="px-4 pb-4">
+                <div class="flex items-center justify-between mb-3">
+                    <h2 class="text-sm font-bold text-slate-800"><i class="fas fa-bookmark text-amber-500 mr-1"></i> Catatan Tersimpan</h2>
+                    <span class="text-xs text-slate-400 font-medium" id="saved-count">0</span>
+                </div>
+                <div id="saved-list" class="space-y-3"></div>
+            </div>
+
+            <!-- Catatan Saya -->
+            <div class="px-4 pb-4">
+                <h2 class="text-sm font-bold text-slate-800 mb-3">Catatan Saya</h2>
+                <div class="space-y-3">
+                    <div id="my-uploads" class="space-y-3 empty:hidden"></div>
+                    <div class="flex items-center gap-3 border border-slate-200 rounded-xl p-3 bg-white">
+                        <div class="w-10 h-10 rounded-lg bg-red-50 flex items-center justify-center shrink-0">
+                            <i class="fas fa-file-pdf text-red-400"></i>
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <p class="text-xs font-bold text-slate-800 truncate">Rangkuman IMK - Human Centered Design</p>
+                            <p class="text-[10px] text-slate-400 mt-0.5">31 upvote · 3 hari lalu</p>
+                        </div>
+                        <span class="text-[10px] font-bold text-emerald-600 bg-emerald-50 px-2 py-1 rounded-full shrink-0">Aktif</span>
+                    </div>
+
+                    <div class="flex items-center gap-3 border border-slate-200 rounded-xl p-3 bg-white">
+                        <div class="w-10 h-10 rounded-lg bg-indigo-50 flex items-center justify-center shrink-0">
+                            <i class="fas fa-file-word text-indigo-400"></i>
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <p class="text-xs font-bold text-slate-800 truncate">Slide Presentasi UI/UX Kelompok 4</p>
+                            <p class="text-[10px] text-slate-400 mt-0.5">14 upvote · 1 minggu lalu</p>
+                        </div>
+                        <span class="text-[10px] font-bold text-emerald-600 bg-emerald-50 px-2 py-1 rounded-full shrink-0">Aktif</span>
+                    </div>
+
+                    <div class="flex items-center gap-3 border border-slate-200 rounded-xl p-3 bg-white">
+                        <div class="w-10 h-10 rounded-lg bg-red-50 flex items-center justify-center shrink-0">
+                            <i class="fas fa-file-pdf text-red-400"></i>
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <p class="text-xs font-bold text-slate-800 truncate">Catatan Pemrograman Web Pertemuan 2</p>
+                            <p class="text-[10px] text-slate-400 mt-0.5">Menunggu validasi komunitas</p>
+                        </div>
+                        <span class="text-[10px] font-bold text-amber-600 bg-amber-50 px-2 py-1 rounded-full shrink-0">Review</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Mobile Bottom Nav -->
+    <div class="fixed bottom-0 w-full bg-white border-t border-slate-200 z-40">
+        <div class="max-w-md mx-auto flex justify-between items-center px-6 py-2">
+            <button id="nav-home" onclick="navigate('home')" class="flex flex-col items-center p-2 text-brand-600 transition-colors">
+                <i class="fas fa-home text-xl mb-1"></i>
+                <span class="text-[10px] font-medium">Beranda</span>
+            </button>
+            <button onclick="openUploadModal()" class="flex flex-col items-center p-2 text-slate-400 hover:text-brand-500 transition-colors">
+                <i class="fas fa-cloud-upload-alt text-xl mb-1"></i>
+                <span class="text-[10px] font-medium">Barter</span>
+            </button>
+            <button id="nav-forum" onclick="navigate('forum')" class="flex flex-col items-center p-2 text-slate-400 transition-colors">
+                <i class="fas fa-comments text-xl mb-1"></i>
+                <span class="text-[10px] font-medium">Forum</span>
+            </button>
+            <button id="nav-profile" onclick="navigate('profile')" class="flex flex-col items-center p-2 text-slate-400 transition-colors">
+                <i class="fas fa-user text-xl mb-1"></i>
+                <span class="text-[10px] font-medium">Profil</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Upload Modal -->
+    <div id="upload-modal" class="fixed inset-0 bg-slate-900/60 z-50 hidden flex-col justify-end items-center backdrop-blur-sm transition-opacity opacity-0">
+        <div class="bg-white w-full max-w-md rounded-t-2xl shadow-2xl overflow-y-auto max-h-[92vh] transform translate-y-full transition-transform duration-300" id="upload-modal-content">
+            <div class="p-4 border-b border-slate-100 flex justify-between items-center">
+                <h3 class="font-bold text-slate-800 text-lg">Unggah Catatan</h3>
+                <button onclick="closeUploadModal()" class="w-8 h-8 bg-slate-100 rounded-full text-slate-500 flex items-center justify-center">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="p-5">
+                <!-- Langkah 1: form -->
+                <div id="up-step-form" class="space-y-4">
+                    <div>
+                        <label class="block text-xs font-bold text-slate-600 mb-1">Judul Catatan</label>
+                        <input id="up-title" type="text" oninput="validateUpload()" placeholder="Misal: Resume Pertemuan 4" class="w-full bg-slate-50 border border-slate-200 rounded-lg p-3 text-sm focus:outline-none focus:border-brand-500">
+                    </div>
+                    <div class="grid grid-cols-2 gap-3">
+                        <div>
+                            <label class="block text-xs font-bold text-slate-600 mb-1">Prodi</label>
+                            <select id="up-prodi" onchange="upBuildCourses()" class="w-full bg-slate-50 border border-slate-200 rounded-lg p-3 text-sm focus:outline-none focus:border-brand-500"></select>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-slate-600 mb-1">Mata Kuliah</label>
+                            <select id="up-course" onchange="validateUpload()" class="w-full bg-slate-50 border border-slate-200 rounded-lg p-3 text-sm focus:outline-none focus:border-brand-500"></select>
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-600 mb-1">Pilih File (PDF/DOCX)</label>
+                        <input id="up-file" type="file" accept=".pdf,.docx" class="hidden" onchange="onFilePicked(this.files[0])">
+                        <div id="up-drop" onclick="document.getElementById('up-file').click()"
+                             ondragover="event.preventDefault(); this.classList.add('border-brand-500','bg-brand-50')"
+                             ondragleave="this.classList.remove('border-brand-500','bg-brand-50')"
+                             ondrop="event.preventDefault(); this.classList.remove('border-brand-500','bg-brand-50'); onFilePicked(event.dataTransfer.files[0])"
+                             class="w-full border-2 border-dashed border-slate-300 rounded-lg p-5 bg-slate-50 hover:bg-slate-100 cursor-pointer transition-colors"></div>
+                        <p id="up-error" class="hidden text-xs text-rose-600 mt-1.5"></p>
+                    </div>
+                    <p class="text-[11px] text-slate-400"><i class="fas fa-tag mr-1"></i>Akan ditandai <b>Semester Ganjil 2026/2027</b> &middot; Angkatan 2022</p>
+                    <button type="button" onclick="useDemoFile()" class="text-xs text-brand-600 font-semibold flex items-center gap-1.5"><i class="fas fa-wand-magic-sparkles"></i> Tidak punya file? Pakai file contoh (demo)</button>
+                    <button id="up-submit" type="button" onclick="submitUpload()" disabled class="w-full bg-brand-500 hover:bg-brand-600 text-white font-bold py-3.5 rounded-xl shadow-md transition-colors flex justify-center items-center gap-2 disabled:bg-slate-300 disabled:shadow-none disabled:cursor-not-allowed">
+                        <i class="fas fa-paper-plane"></i> Kirim & Dapatkan 5 Kuota
+                    </button>
+                </div>
+                <!-- Langkah 2: progres -->
+                <div id="up-step-progress" class="hidden py-6 text-center">
+                    <div id="up-icon" class="w-14 h-14 mx-auto rounded-full bg-brand-50 flex items-center justify-center mb-4"><i class="fas fa-cloud-arrow-up text-brand-500 text-2xl"></i></div>
+                    <p id="up-status" class="text-sm font-semibold text-slate-700 mb-3">Mengunggah berkas...</p>
+                    <div class="h-2.5 bg-slate-100 rounded-full overflow-hidden"><div id="up-bar" class="h-full bg-gradient-to-r from-brand-500 to-emerald-400 rounded-full transition-all duration-150" style="width:0%"></div></div>
+                    <p id="up-pct" class="text-[11px] text-slate-400 mt-1.5">0%</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Report Modal -->
+    <div id="report-modal" onclick="if (event.target === this) closeReport()" class="fixed inset-0 bg-slate-900/60 z-50 hidden flex-col justify-end items-center backdrop-blur-sm transition-opacity opacity-0">
+        <div id="report-content" class="bg-white w-full max-w-md rounded-t-2xl shadow-2xl overflow-y-auto max-h-[92vh] transform translate-y-full transition-transform duration-300">
+            <div class="p-4 border-b border-slate-100 flex justify-between items-center">
+                <h3 class="font-bold text-slate-800 text-lg"><i class="fas fa-flag text-rose-500 mr-2"></i>Laporkan Catatan</h3>
+                <button onclick="closeReport()" class="w-8 h-8 bg-slate-100 rounded-full text-slate-500 flex items-center justify-center"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="p-5 space-y-4">
+                <p id="rp-note" class="text-xs text-slate-500"></p>
+                <div id="rp-reasons" class="space-y-2"></div>
+                <textarea id="rp-detail" rows="3" placeholder="Detail tambahan (opsional)" class="w-full bg-slate-50 border border-slate-200 rounded-lg p-3 text-sm focus:outline-none focus:border-brand-500"></textarea>
+                <button id="rp-submit" onclick="submitReport()" disabled class="w-full bg-rose-500 hover:bg-rose-600 text-white font-bold py-3.5 rounded-xl shadow-md transition-colors flex justify-center items-center gap-2 disabled:bg-slate-300 disabled:shadow-none disabled:cursor-not-allowed"><i class="fas fa-paper-plane"></i> Kirim Laporan</button>
+                <p class="text-[11px] text-slate-400 text-center">Laporan ditinjau moderator. Setelah 3 laporan, dokumen otomatis masuk antrean tinjauan.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ================= AUTH (LOGIN KAMPUS) ================= -->
+    <div id="auth-root" class="fixed inset-0 z-[80] bg-slate-50 overflow-y-auto flex justify-center">
+    <div class="w-full max-w-md bg-white min-h-screen shadow-sm relative overflow-x-hidden">
+<!-- ================= SCREEN: LOGIN ================= -->
+  <section id="s-login" class="hidden fade-in">
+    <div class="relative bg-gradient-to-br from-brand-600 to-brand-900 text-white px-6 pt-14 pb-16 rounded-b-[2rem]">
+      <img data-asset="owl" alt="" class="absolute right-5 top-12 w-24 drop-shadow-lg">
+      <div class="inline-flex bg-white rounded-2xl px-3 py-2 mb-6 shadow-sm"><img data-asset="logo" alt="CataTukar" class="h-8 w-auto"></div>
+      <h1 class="text-2xl font-bold leading-snug">Barter catatan,<br>belajar lebih ringan.</h1>
+      <p class="text-brand-100 text-sm mt-2">Masuk dengan akun Google kampusmu untuk mulai berbagi dan membuka referensi ujian.</p>
+    </div>
+
+    <div class="relative z-10 px-6 -mt-8">
+      <div class="bg-white rounded-2xl shadow-lg border border-slate-100 p-5 space-y-4">
+        <div>
+          <h2 class="font-bold text-slate-800">Masuk ke CataTukar</h2>
+          <p class="text-xs text-slate-500 mt-0.5">Hanya untuk mahasiswa dengan email kampus.</p>
+        </div>
+
+        <button onclick="openChooser()" class="w-full flex items-center justify-center gap-3 border border-slate-300 rounded-xl py-3 font-semibold text-sm text-slate-700 hover:bg-slate-50 active:scale-[.99] transition">
+          <svg viewBox="0 0 48 48" class="w-5 h-5"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg>
+          Masuk dengan Google Kampus
+        </button>
+
+        <div class="flex items-center gap-3 text-[11px] text-slate-400"><div class="h-px bg-slate-200 flex-1"></div>atau pakai email kampus<div class="h-px bg-slate-200 flex-1"></div></div>
+
+        <div>
+          <div id="email-box" class="flex items-center border border-slate-200 rounded-xl bg-slate-50 focus-within:border-brand-500 overflow-hidden">
+            <i class="fas fa-envelope text-slate-400 pl-3"></i>
+            <input id="email-input" type="email" inputmode="email" autocomplete="email" placeholder="nama@student.upi.edu"
+                   oninput="clearErr()" onkeydown="if(event.key==='Enter') submitEmail()"
+                   class="flex-1 bg-transparent p-3 text-sm outline-none min-w-0">
+          </div>
+          <p id="email-err" class="hidden text-xs text-rose-600 mt-1.5 flex items-start gap-1.5"><i class="fas fa-circle-exclamation mt-0.5"></i><span></span></p>
+        </div>
+
+        <label class="flex items-center gap-2 text-xs text-slate-600 cursor-pointer select-none">
+          <input id="remember" type="checkbox" checked class="accent-sky-600 w-4 h-4"> Tetap masuk di perangkat ini
+        </label>
+
+        <button onclick="submitEmail()" class="w-full bg-brand-500 hover:bg-brand-600 text-white font-bold py-3 rounded-xl shadow-md shadow-brand-500/30 transition">Lanjutkan</button>
+      </div>
+
+      <div class="mt-5 flex items-start gap-2 bg-emerald-50 border border-emerald-100 text-emerald-700 rounded-xl p-3">
+        <i class="fas fa-shield-halved mt-0.5"></i>
+        <p class="text-[11px] leading-relaxed">Hanya akun <b id="domain-label"></b> yang diterima. Ini menjaga komunitas tetap berisi mahasiswa asli dan mencegah akun palsu atau spam.</p>
+      </div>
+      <p class="text-center text-[11px] text-slate-400 my-6">Prototype demo &middot; tidak ada data yang dikirim ke Google</p>
+    </div>
+  </section>
+
+  <!-- ================= SCREEN: ONBOARDING ================= -->
+  <section id="s-onboard" class="hidden fade-in px-6 pt-10 pb-10">
+    <div class="flex items-center gap-2 text-xs font-semibold text-brand-600 mb-5"><i class="fas fa-circle-check"></i> Akun kampus terverifikasi</div>
+    <h1 class="text-2xl font-bold">Lengkapi profilmu</h1>
+    <p class="text-sm text-slate-500 mt-1 mb-6">Cukup sekali. Data ini dipakai untuk mengelompokkan catatan sesuai prodi dan angkatan.</p>
+
+    <div class="space-y-4">
+      <div class="flex items-center gap-3 bg-slate-50 border border-slate-100 rounded-xl p-3">
+        <div id="ob-avatar" class="w-12 h-12 rounded-full bg-brand-600 text-white flex items-center justify-center font-bold"></div>
+        <div class="min-w-0">
+          <p id="ob-email" class="text-sm font-semibold truncate"></p>
+          <p class="text-[11px] text-emerald-600 font-semibold"><i class="fas fa-circle-check mr-1"></i>Email kampus terverifikasi</p>
+        </div>
+      </div>
+      <div>
+        <label class="block text-xs font-bold text-slate-600 mb-1">Nama Lengkap</label>
+        <input id="ob-name" type="text" oninput="validateOb()" class="w-full bg-slate-50 border border-slate-200 rounded-lg p-3 text-sm focus:outline-none focus:border-brand-500">
+      </div>
+      <div class="grid grid-cols-2 gap-3">
+        <div>
+          <label class="block text-xs font-bold text-slate-600 mb-1">Prodi</label>
+          <select id="ob-prodi" onchange="validateOb()" class="w-full bg-slate-50 border border-slate-200 rounded-lg p-3 text-sm focus:outline-none focus:border-brand-500"></select>
+        </div>
+        <div>
+          <label class="block text-xs font-bold text-slate-600 mb-1">Angkatan</label>
+          <select id="ob-angkatan" onchange="validateOb()" class="w-full bg-slate-50 border border-slate-200 rounded-lg p-3 text-sm focus:outline-none focus:border-brand-500"></select>
+        </div>
+      </div>
+      <label class="flex items-start gap-2 text-xs text-slate-600 cursor-pointer select-none">
+        <input id="ob-agree" type="checkbox" onchange="validateOb()" class="accent-sky-600 w-4 h-4 mt-0.5">
+        <span>Saya setuju dengan aturan <b>Fair-Play</b>: tidak mengunggah bocoran soal, plagiat, atau konten yang melanggar integritas akademik.</span>
+      </label>
+      <button id="ob-submit" onclick="finishOnboarding()" disabled class="w-full bg-brand-500 hover:bg-brand-600 text-white font-bold py-3.5 rounded-xl shadow-md transition disabled:bg-slate-300 disabled:shadow-none disabled:cursor-not-allowed">
+        <i class="fas fa-gift mr-1"></i> Selesai &amp; Klaim 2 Kuota Gratis
+      </button>
+      <button onclick="authCancel()" class="w-full text-xs text-slate-400 underline">Batal dan ganti akun</button>
+    </div>
+  </section>
+
+  <!-- ================= SCREEN: WELCOME / SESSION ================= -->
+  <section id="s-home" class="hidden fade-in px-6 pt-12 pb-10">
+    <div class="text-center">
+      <img data-asset="owl" alt="" class="w-28 mx-auto mb-2">
+      <h1 id="hm-title" class="text-2xl font-bold"></h1>
+      <p id="hm-sub" class="text-sm text-slate-500 mt-1"></p>
+    </div>
+
+    <div class="mt-6 bg-gradient-to-br from-brand-600 to-brand-900 text-white rounded-2xl p-5 shadow-lg">
+      <div class="flex items-center gap-4">
+        <div id="hm-avatar" class="w-16 h-16 rounded-full bg-white text-brand-600 flex items-center justify-center text-xl font-bold shrink-0"></div>
+        <div class="min-w-0">
+          <p id="hm-name" class="font-bold text-lg leading-tight truncate"></p>
+          <p id="hm-email" class="text-brand-100 text-xs truncate"></p>
+          <p id="hm-meta" class="text-brand-100 text-xs mt-0.5"></p>
+        </div>
+      </div>
+      <div class="grid grid-cols-2 gap-3 mt-4">
+        <div class="bg-white/15 rounded-xl p-3 text-center"><p id="hm-quota" class="text-xl font-bold"></p><p class="text-[11px] text-brand-100">Kuota unduh</p></div>
+        <div class="bg-white/15 rounded-xl p-3 text-center"><p id="hm-sem" class="text-xl font-bold"></p><p class="text-[11px] text-brand-100">Semester</p></div>
+      </div>
+    </div>
+
+    <div class="mt-5 space-y-3">
+      <button id="hm-go" onclick="authEnter()" class="block w-full text-center bg-brand-500 hover:bg-brand-600 text-white font-bold py-3.5 rounded-xl shadow-md shadow-brand-500/30 transition"><i class="fas fa-arrow-right mr-1"></i> Mulai Jelajahi Catatan</button>
+      <button onclick="openLogoutModal()" class="w-full border border-slate-200 text-slate-600 font-semibold py-3 rounded-xl hover:bg-slate-50 transition"><i class="fas fa-right-from-bracket mr-1"></i> Keluar</button>
+    </div>
+    <div class="mt-5 text-[11px] text-slate-400 bg-slate-50 border border-slate-100 rounded-xl p-3 flex gap-2">
+      <i class="fas fa-circle-info mt-0.5"></i><span id="hm-session"></span>
+    </div>
+  </section>
+
+  
+    </div></div>
+
+    <!-- ================= MODAL: PILIH AKUN GOOGLE ================= -->
+  <div id="chooser" class="hidden fixed inset-0 z-[85] bg-slate-900/60 backdrop-blur-sm flex-col justify-end items-center" onclick="if(event.target===this) closeChooser()">
+    <div class="bg-white w-full max-w-md rounded-t-2xl shadow-2xl slide-up">
+      <div class="p-4 border-b border-slate-100 flex items-center gap-2">
+        <svg viewBox="0 0 48 48" class="w-5 h-5"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg>
+        <div><p class="font-bold text-sm">Pilih akun</p><p class="text-[11px] text-slate-500">untuk melanjutkan ke CataTukar</p></div>
+      </div>
+      <div id="chooser-list" class="p-2"></div>
+      <div class="p-3 border-t border-slate-100"><button onclick="closeChooser(); document.getElementById('email-input').focus()" class="w-full text-sm font-semibold text-brand-600 py-2"><i class="fas fa-user-plus mr-1"></i> Gunakan akun lain</button></div>
+    </div>
+  </div>
+
+  <!-- ================= MODAL: KELUAR ================= -->
+  <div id="logout-modal" class="hidden fixed inset-0 z-[85] bg-slate-900/60 backdrop-blur-sm items-center justify-center p-6">
+    <div class="bg-white rounded-2xl p-5 w-full max-w-xs shadow-2xl fade-in text-center">
+      <div class="w-12 h-12 mx-auto rounded-full bg-rose-50 flex items-center justify-center mb-3"><i class="fas fa-right-from-bracket text-rose-500"></i></div>
+      <h3 class="font-bold mb-1">Keluar dari akun?</h3>
+      <p class="text-xs text-slate-500 mb-4">Kamu perlu masuk lagi dengan email kampus untuk mengakses catatan.</p>
+      <div class="flex gap-2">
+        <button onclick="closeLogoutModal()" class="flex-1 border border-slate-200 rounded-xl py-2.5 text-sm font-semibold text-slate-600">Batal</button>
+        <button onclick="authLogout()" class="flex-1 bg-rose-500 hover:bg-rose-600 text-white rounded-xl py-2.5 text-sm font-bold">Keluar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= OVERLAY: LOADING ================= -->
+  <div id="loading" class="hidden fixed inset-0 z-[90] bg-white/90 backdrop-blur-sm flex-col items-center justify-center">
+    <div class="w-12 h-12 border-4 border-brand-100 border-t-brand-500 rounded-full animate-spin mb-4"></div>
+    <p id="loading-text" class="text-sm font-semibold text-slate-600"></p>
+  </div>
+
+  
+    <!-- Toast Container -->
+    <div id="toast-container" class="fixed top-20 left-1/2 transform -translate-x-1/2 z-[100] flex flex-col gap-2 w-full max-w-sm px-4 pointer-events-none"></div>
+
+    <script>
+const ASSET = { logo: "data:image/webp;base64,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", owl: "data:image/webp;base64,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" };
+document.querySelectorAll('img[data-asset]').forEach(img => { img.src = ASSET[img.dataset.asset]; });
+</script>
+    <script>
+        /* ============================================================
+           STATE MANAGEMENT
+           ============================================================ */
+        const LEGEND_TARGET = 10;
+        const PRODI = { pm: 'Pendidikan Multimedia', tk: 'Teknik Komputer', rpl: 'Rekayasa Perangkat Lunak', pgsd: 'PGSD', pgpaud: 'PGPAUD' };
+        const SEMESTER_NOW = 'Ganjil 2026/2027', SEMESTER_PREV = 'Genap 2025/2026';
+        const USER = { name: 'Javier MD', prodi: 'pm', angkatan: 2022 };
+        let userSem = (2026 - USER.angkatan) * 2 + 1;
+        const COURSES = {
+            asd: { label: 'Algoritma dan Struktur Data',          short: 'ASD' },
+            md:  { label: 'Matematika Diskrit',                   short: 'Matematika Diskrit' },
+            aok: { label: 'Arsitektur dan Organisasi Komputer',   short: 'Arsitektur Komputer' },
+            dt:  { label: 'Desain Berpikir (Design Thinking)', short: 'Design Thinking' },
+            imk: { label: 'Interaksi Manusia dan Komputer',    short: 'IMK' },
+            pw:  { label: 'Pemrograman Web',                   short: 'Pemrograman Web' },
+            pk:  { label: 'Perkembangan Peserta Didik',        short: 'Perkembangan Peserta Didik' },
+            bm:  { label: 'Bermain & Permainan Anak Usia Dini', short: 'Bermain & Permainan AUD' }
+        };
+        const NOTES = [
+            { id: 1, title: 'Resume Desain Berpikir Pertemuan 3 - Empati & Define', type: 'PDF',  course: 'dt',  prodi: 'pm', score: 25, author: 'Budi Santoso', short: 'Budi S.',  sub: "Pendidikan Multimedia '21", av: 'Budi+S',  top: true,  time: '2 hari lalu',   tags: 'uts empati define empathy map' },
+            { id: 2, title: 'Kisi-kisi UTS Design Thinking 2023 Lengkap',           type: 'DOCX', course: 'dt',  prodi: 'pm', score: 18, author: 'Sarah Amelia', short: 'Sarah A.', sub: "Pendidikan Multimedia '21", av: 'Sarah+A', top: false, time: '1 minggu lalu', tags: 'uts kisi-kisi soal 2023' },
+            { id: 3, title: 'Rangkuman IMK - Human Centered Design',                type: 'PDF',  course: 'imk', prodi: 'pm', score: 31, author: 'Javier MD', short: 'Javier M.', sub: "Pendidikan Multimedia '22", av: 'Javier+MD',  top: true,  time: '3 hari lalu',   tags: 'hcd usability uts rangkuman' },
+            { id: 4, title: 'Catatan Pemrograman Web: DOM & Event Handling',        type: 'PDF',  course: 'pw',  prodi: 'rpl', score: 12, author: 'Rina Kartika', short: 'Rina K.',  sub: "Rekayasa Perangkat Lunak '21",         av: 'Rina+K',  top: false, time: '4 hari lalu',   tags: 'dom event javascript uts' },
+            { id: 5, title: 'Cheatsheet Flexbox & Grid untuk UTS Pemrograman Web',  type: 'PDF',  course: 'pw',  prodi: 'tk', score: 20, author: 'Dimas Pratama', short: 'Dimas P.', sub: "Teknik Komputer '20",         av: 'Dimas+P', top: true,  time: '5 hari lalu',   tags: 'uts css flexbox grid cheatsheet' },
+            { id: 6, title: 'Ringkasan IMK Heuristik Nielsen (Draft Awal)',          type: 'DOCX', course: 'imk', prodi: 'rpl', score: -4, author: 'Anonim 07',    short: 'Anonim 07', sub: "Rekayasa Perangkat Lunak '23", av: 'A+07',    top: false, time: '6 hari lalu',   tags: 'heuristik nielsen draft' },
+            { id: 7, title: 'Bocoran Soal UTS IMK (Tanpa Sumber)',                  type: 'DOCX', course: 'imk', prodi: 'pm', score: -7, author: 'Anonim 12',    short: 'Anonim 12', sub: "Pendidikan Multimedia '23", av: 'A+12',    top: false, time: '2 minggu lalu', tags: 'uts bocoran soal' },
+            { id: 8, title: 'Rangkuman Perkembangan Peserta Didik SD - Teori Piaget', type: 'PDF',  course: 'pk', prodi: 'pgsd',   score: 15, author: 'Nadia Putri',      short: 'Nadia P.', sub: "PGSD '22",   av: 'Nadia+P', top: false, time: '3 hari lalu', tags: 'uts piaget kognitif sd rangkuman' },
+            { id: 9, title: 'Catatan Bermain & Permainan Anak Usia Dini untuk UTS',  type: 'DOCX', course: 'bm', prodi: 'pgpaud', score: 9,  author: 'Fitri Handayani',  short: 'Fitri H.', sub: "PGPAUD '21", av: 'Fitri+H', top: false, time: '1 minggu lalu', tags: 'uts bermain paud permainan' },
+            { id: 10, title: 'Rangkuman Algoritma & Struktur Data: Array, Linked List, Stack', type: 'PDF',  course: 'asd', prodi: 'pm', score: 14, author: 'Salsa Nabila',    short: 'Salsa N.',  sub: "Pendidikan Multimedia '23", av: 'Salsa+N',  top: false, time: '2 hari lalu',   tags: 'uts array linked list stack queue' },
+            { id: 11, title: 'Cheatsheet Kompleksitas Waktu (Big-O) & Sorting untuk UTS',      type: 'PDF',  course: 'asd', prodi: 'tk', score: 27, author: 'Fajar Ramadhan',  short: 'Fajar R.',  sub: "Teknik Komputer '21",       av: 'Fajar+R',  top: true,  time: '4 hari lalu',   tags: 'uts big-o sorting kompleksitas cheatsheet' },
+            { id: 12, title: 'Catatan Matematika Diskrit: Logika & Himpunan',                  type: 'DOCX', course: 'md',  prodi: 'pm', score: 8,  author: 'Tasya Maharani',  short: 'Tasya M.',  sub: "Pendidikan Multimedia '22", av: 'Tasya+M',  top: false, time: '5 hari lalu',   tags: 'uts logika himpunan proposisi' },
+            { id: 13, title: 'Latihan Soal Matematika Diskrit: Graf & Pohon',                  type: 'PDF',  course: 'md',  prodi: 'tk', score: 19, author: 'Reza Aditya',     short: 'Reza A.',   sub: "Teknik Komputer '22",       av: 'Reza+A',   top: false, time: '1 minggu lalu', tags: 'uts graf pohon latihan soal' },
+            { id: 14, title: 'Ringkasan Arsitektur Komputer: CPU & Memori',                    type: 'PDF',  course: 'aok', prodi: 'pm', score: 11, author: 'Wulan Sari',      short: 'Wulan S.',  sub: "Pendidikan Multimedia '23", av: 'Wulan+S',  top: false, time: '3 hari lalu',   tags: 'uts cpu memori register' },
+            { id: 15, title: 'Rangkuman Arsitektur & Organisasi Komputer: Pipeline dan Cache', type: 'PDF',  course: 'aok', prodi: 'tk', score: 23, author: 'Bima Saputra',    short: 'Bima S.',   sub: "Teknik Komputer '20",       av: 'Bima+S',   top: true,  time: '6 hari lalu',   tags: 'uts pipeline cache hazard' }
+        ];
+        const PAGES = {
+            dt: [
+                { h: 'Tahap 1: Empathize', p: [
+                    'Empati adalah memahami kebutuhan, perilaku, dan emosi pengguna lewat observasi langsung dan wawancara mendalam. Tujuannya menemukan insight, bukan sekadar mengumpulkan opini.',
+                    'Alat utama: wawancara, shadowing, dan Empathy Map yang terdiri dari empat kuadran: Says, Thinks, Does, Feels.',
+                    'Tips: gunakan pertanyaan terbuka ("ceritakan pengalamanmu saat...") dan hindari pertanyaan yang mengarahkan jawaban.',
+                    'Kesalahan umum: langsung melompat ke solusi sebelum benar-benar memahami masalah pengguna.' ] },
+                { h: 'Tahap 2: Define', p: [
+                    'Hasil riset disintesis menjadi Problem Statement dengan format Point of View: [Pengguna] membutuhkan [kebutuhan] karena [insight].',
+                    'Dari problem statement disusun pertanyaan How Might We (HMW) yang membuka ruang ide. HMW yang baik tidak terlalu sempit dan tidak terlalu luas.',
+                    'Contoh HMW: Bagaimana kita bisa membantu mahasiswa menemukan catatan berkualitas dengan cepat saat menjelang ujian?',
+                    'Persona dan Journey Map dipakai untuk mengkomunikasikan hasil sintesis ke seluruh anggota tim.' ] },
+                { h: 'Ringkasan & Latihan Soal', p: [
+                    'Lima tahap Design Thinking: Empathize, Define, Ideate, Prototype, Test. Prosesnya iteratif, tahap boleh diulang jika hasil pengujian menunjukkan masalah baru.',
+                    'Latihan 1: Jelaskan perbedaan Empathy Map dan Persona beserta kapan masing-masing digunakan.',
+                    'Latihan 2: Susun satu pertanyaan HMW dari problem statement berikut: Mahasiswa semester akhir butuh referensi ujian terpercaya karena waktu belajar mereka terbatas.',
+                    'Latihan 3: Mengapa tahap Define dianggap jembatan antara riset dan ideasi?' ] }
+            ],
+            imk: [
+                { h: 'Konsep Human Centered Design', p: [
+                    'HCD menempatkan pengguna sebagai pusat proses perancangan dan dilakukan secara iteratif. Standar ISO 9241-210 menyebut empat aktivitas utama.',
+                    'Empat aktivitas: memahami konteks penggunaan, menentukan kebutuhan pengguna, menghasilkan solusi desain, dan mengevaluasi desain terhadap kebutuhan.',
+                    'Manfaat: mengurangi risiko produk gagal, meningkatkan kepuasan pengguna, dan menekan biaya perbaikan di tahap akhir pengembangan.' ] },
+                { h: '10 Heuristik Usability (Nielsen)', p: [
+                    '1) Visibilitas status sistem. 2) Kesesuaian sistem dengan dunia nyata. 3) Kontrol dan kebebasan pengguna. 4) Konsistensi dan standar. 5) Pencegahan error.',
+                    '6) Mengenali lebih baik daripada mengingat. 7) Fleksibilitas dan efisiensi penggunaan. 8) Desain estetis dan minimalis. 9) Bantu pengguna memulihkan error. 10) Bantuan dan dokumentasi.',
+                    'Contoh: indikator loading saat unggah berkas memenuhi heuristik pertama karena pengguna selalu tahu apa yang sedang terjadi.' ] },
+                { h: 'Evaluasi & Latihan Soal', p: [
+                    'Metode evaluasi: heuristic evaluation (ahli), cognitive walkthrough, usability testing (pengguna nyata), dan kuesioner SUS (System Usability Scale).',
+                    'Latihan 1: Bandingkan heuristic evaluation dengan usability testing dari sisi biaya dan kedalaman temuan.',
+                    'Latihan 2: Identifikasi dua pelanggaran heuristik pada aplikasi yang sering kamu gunakan dan usulkan perbaikannya.' ] }
+            ],
+            pw: [
+                { h: 'Dasar DOM', p: [
+                    'DOM (Document Object Model) adalah representasi dokumen HTML dalam bentuk pohon node yang dapat dimanipulasi lewat JavaScript.',
+                    'Mengambil elemen: getElementById, querySelector, dan querySelectorAll. Mengubah isi: textContent, innerHTML, dan setAttribute.',
+                    'Membuat elemen: document.createElement lalu appendChild atau prepend ke elemen induk.',
+                    'Catatan: gunakan textContent untuk data dari pengguna agar terhindar dari injeksi HTML.' ] },
+                { h: 'Event Handling', p: [
+                    'Pasang event dengan addEventListener(jenis, fungsi). Jenis umum: click, input, submit, keydown, dan change.',
+                    'Event bubbling: event merambat dari elemen target ke induknya. Capturing berjalan sebaliknya, dari akar ke target.',
+                    'preventDefault() membatalkan perilaku bawaan (misalnya submit form), sedangkan stopPropagation() menghentikan perambatan event.',
+                    'Event delegation: pasang satu listener di induk untuk menangani banyak anak, cocok untuk daftar dinamis.' ] },
+                { h: 'Contoh Kode & Latihan', p: [
+                    'Contoh: document.querySelector("#btn").addEventListener("click", () => { alert("Halo!"); });',
+                    'Latihan 1: Buat tombol yang menambah item ke dalam daftar menggunakan createElement.',
+                    'Latihan 2: Jelaskan perbedaan bubbling dan capturing, lalu beri contoh kapan stopPropagation berguna.' ] }
+            ],
+            pk: [
+                { h: 'Teori Perkembangan Kognitif Piaget', p: [
+                    'Piaget membagi perkembangan kognitif anak menjadi empat tahap: sensorimotor (0-2 tahun), praoperasional (2-7 tahun), operasional konkret (7-11 tahun), dan operasional formal (11 tahun ke atas).',
+                    'Anak usia SD berada pada tahap operasional konkret: mampu berpikir logis tentang benda nyata, memahami konservasi, klasifikasi, dan seriasi.',
+                    'Konsep kunci: skema, asimilasi, akomodasi, dan ekuilibrasi.' ] },
+                { h: 'Implikasi bagi Guru SD', p: [
+                    'Gunakan benda konkret dan media manipulatif saat mengajarkan konsep abstrak seperti pecahan atau satuan panjang.',
+                    'Beri kesempatan anak bereksplorasi dan bertanya. Guru berperan sebagai fasilitator, bukan satu-satunya sumber pengetahuan.',
+                    'Contoh: mengajarkan pecahan menggunakan potongan kertas atau kue agar anak melihat langsung bagian dari keseluruhan.' ] },
+                { h: 'Ringkasan & Latihan Soal', p: [
+                    'Latihan 1: Jelaskan perbedaan asimilasi dan akomodasi beserta contohnya di kelas.',
+                    'Latihan 2: Mengapa anak SD kelas rendah masih membutuhkan benda konkret dalam belajar matematika?',
+                    'Latihan 3: Bandingkan teori Piaget dengan teori Vygotsky tentang Zone of Proximal Development.' ] }
+            ],
+            bm: [
+                { h: 'Hakikat Bermain bagi Anak Usia Dini', p: [
+                    'Bermain adalah kegiatan utama anak usia dini yang dilakukan secara sukarela, menyenangkan, dan berorientasi pada proses, bukan hasil.',
+                    'Fungsi bermain: mengembangkan motorik, kognitif, bahasa, sosial-emosional, serta kreativitas anak.',
+                    'Prinsip: bermain sambil belajar, sesuai tahap perkembangan, dan aman bagi anak.' ] },
+                { h: 'Jenis Permainan (Teori Parten)', p: [
+                    'Tahapan bermain sosial menurut Parten: unoccupied play, solitary play, onlooker play, parallel play, associative play, dan cooperative play.',
+                    'Menurut Piaget, jenis bermain meliputi bermain fungsional, konstruktif, simbolik, dan permainan beraturan.',
+                    'Contoh: bermain peran pasar-pasaran melatih bahasa, kerja sama, dan pemahaman konsep jual beli sederhana.' ] },
+                { h: 'Perencanaan & Latihan Soal', p: [
+                    'Guru PAUD merancang kegiatan bermain dengan menyiapkan alat, ruang aman, dan tujuan perkembangan yang jelas, lalu mengamati dan mencatat perkembangan anak.',
+                    'Latihan 1: Jelaskan perbedaan parallel play dan cooperative play beserta contohnya.',
+                    'Latihan 2: Rancang satu kegiatan bermain konstruktif untuk anak usia 4-5 tahun dengan tujuan motorik halus.' ] }
+            ],
+            asd: [
+                { h: 'Struktur Data Linear', p: [
+                    'Array menyimpan elemen berurutan di memori dengan akses indeks O(1), tetapi penyisipan dan penghapusan di tengah membutuhkan O(n).',
+                    'Linked list tersusun dari node yang berisi data dan pointer ke node berikutnya. Penyisipan di awal O(1), pencarian O(n).',
+                    'Stack bersifat LIFO (push, pop, peek), dipakai pada undo, evaluasi ekspresi, dan pemanggilan fungsi. Queue bersifat FIFO (enqueue, dequeue).' ] },
+                { h: 'Kompleksitas & Pengurutan', p: [
+                    'Notasi Big-O menyatakan batas atas pertumbuhan waktu: O(1) < O(log n) < O(n) < O(n log n) < O(n^2).',
+                    'Bubble, selection, dan insertion sort bernilai O(n^2). Merge sort dan quick sort rata-rata O(n log n).',
+                    'Binary search hanya berlaku pada data terurut dan berkompleksitas O(log n).' ] },
+                { h: 'Ringkasan & Latihan Soal', p: [
+                    'Latihan 1: Tentukan kompleksitas waktu dari dua perulangan bersarang dengan batas n.',
+                    'Latihan 2: Jelaskan kapan linked list lebih baik daripada array dan sebaliknya.',
+                    'Latihan 3: Simulasikan push dan pop pada stack untuk ekspresi postfix 5 3 + 2 *.' ] }
+            ],
+            md: [
+                { h: 'Logika Proposisi', p: [
+                    'Proposisi adalah kalimat yang bernilai benar atau salah. Operator dasar: negasi, konjungsi (dan), disjungsi (atau), implikasi, dan biimplikasi.',
+                    'Tautologi selalu bernilai benar, kontradiksi selalu salah. Hukum De Morgan: negasi (p dan q) setara dengan (negasi p) atau (negasi q).',
+                    'Implikasi p -> q bernilai salah hanya ketika p benar dan q salah.' ] },
+                { h: 'Himpunan & Relasi', p: [
+                    'Operasi himpunan: gabungan, irisan, selisih, dan komplemen. Himpunan kuasa dari himpunan berukuran n memiliki 2^n anggota.',
+                    'Relasi dapat bersifat refleksif, simetris, antisimetris, atau transitif. Relasi yang refleksif, simetris, dan transitif disebut relasi ekuivalensi.',
+                    'Fungsi: injektif, surjektif, dan bijektif.' ] },
+                { h: 'Graf, Pohon & Latihan Soal', p: [
+                    'Graf terdiri dari simpul dan sisi. Derajat total semua simpul sama dengan dua kali jumlah sisi.',
+                    'Pohon adalah graf terhubung tanpa siklus; pohon dengan n simpul memiliki n-1 sisi.',
+                    'Latihan 1: Buktikan bahwa jumlah derajat simpul graf selalu genap.',
+                    'Latihan 2: Buat tabel kebenaran untuk (p atau q) -> r.' ] }
+            ],
+            aok: [
+                { h: 'Komponen CPU & Memori', p: [
+                    'CPU terdiri dari ALU, unit kendali, dan register. Siklus instruksi: fetch, decode, execute, dan write back.',
+                    'Hierarki memori: register, cache (L1-L3), RAM, lalu penyimpanan sekunder. Semakin ke atas semakin cepat, kecil, dan mahal.',
+                    'Program Counter menyimpan alamat instruksi berikutnya, sedangkan Instruction Register menyimpan instruksi yang sedang dijalankan.' ] },
+                { h: 'Pipeline & Cache', p: [
+                    'Pipeline membagi eksekusi instruksi menjadi beberapa tahap agar beberapa instruksi diproses bersamaan sehingga throughput meningkat.',
+                    'Hazard pipeline: struktural, data, dan kontrol. Solusi: forwarding, stalling, dan prediksi cabang.',
+                    'Cache memanfaatkan lokalitas temporal dan spasial. Cache hit mempercepat akses, cache miss memaksa pengambilan data dari tingkat lebih rendah.' ] },
+                { h: 'Ringkasan & Latihan Soal', p: [
+                    'Latihan 1: Jelaskan perbedaan arsitektur RISC dan CISC.',
+                    'Latihan 2: Hitung CPI rata-rata jika 60 persen instruksi membutuhkan 1 siklus dan 40 persen membutuhkan 3 siklus.',
+                    'Latihan 3: Mengapa ukuran cache yang lebih besar tidak selalu menurunkan waktu akses?' ] }
+            ]
+        };
+
+        /* ============================================================
+           STATE MANAGEMENT
+           ============================================================ */
+        const state = {
+            userQuota: 0,
+            userContributions: 8,
+            userDownloads: 23,
+            currentId: null,
+            votes: {},            // id -> 0 | 1 | -1
+            unlocked: new Set(),  // id catatan yang sudah dibuka kuncinya
+            saved: new Set()      // id catatan yang di-bookmark
+        };
+        const getNote = id => NOTES.find(n => n.id === id);
+        const semOf = n => n.sem || SEMESTER_NOW;
+        const semShort = n => semOf(n).replace(/20(\d\d)\/20(\d\d)/, '$1/$2');
+        [2, 7].forEach(id => getNote(id).sem = SEMESTER_PREV);
+        getNote(7).reports = 4; getNote(6).reports = 2;   // contoh laporan awal
+        state.reported = new Set();
+
+        /* ============================================================
+           NAVIGATION
+           ============================================================ */
+        const VIEWS = ['home', 'detail', 'forum', 'profile'];
+        const NAV_MAP = {
+            home: 'nav-home',
+            forum: 'nav-forum',
+            profile: 'nav-profile'
+        };
+
+        function navigate(view) {
+            // Sembunyikan semua view
+            VIEWS.forEach(v => {
+                const el = document.getElementById('view-' + v);
+                if (el) {
+                    el.classList.add('hidden');
+                    el.classList.remove('block');
+                }
+            });
+
+            // Tampilkan view tujuan
+            const target = document.getElementById('view-' + view);
+            if (target) {
+                target.classList.remove('hidden');
+                target.classList.add('block');
+            }
+
+            // Update active state di bottom nav
+            Object.keys(NAV_MAP).forEach(key => {
+                const btn = document.getElementById(NAV_MAP[key]);
+                if (!btn) return;
+                if (key === view) {
+                    btn.classList.add('text-brand-600');
+                    btn.classList.remove('text-slate-400');
+                } else {
+                    btn.classList.remove('text-brand-600');
+                    btn.classList.add('text-slate-400');
+                }
+            });
+
+            if (view === 'home') renderFeed();
+            if (view === 'profile') renderProfile();
+            window.scrollTo(0, 0);
+        }
+
+        /* ============================================================
+           UPLOAD MODAL
+           ============================================================ */
+        const modal = document.getElementById('upload-modal');
+        const modalContent = document.getElementById('upload-modal-content');
+
+        function openUploadModal() {
+            resetUploadForm();
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+            void modal.offsetWidth; // trigger reflow
+            modal.classList.remove('opacity-0');
+            modalContent.classList.remove('translate-y-full');
+        }
+
+        function closeUploadModal() {
+            modal.classList.add('opacity-0');
+            modalContent.classList.add('translate-y-full');
+            setTimeout(() => {
+                modal.classList.add('hidden');
+                modal.classList.remove('flex');
+            }, 300);
+        }
+
+        /* ============================================================
+           HOME: PENCARIAN + FILTER NYATA
+           ============================================================ */
+        function typeClass(type, id) {
+            return type === 'DOCX' ? 'bg-indigo-100 text-indigo-700' : (id % 2 ? 'bg-blue-100 text-blue-700' : 'bg-emerald-100 text-emerald-700');
+        }
+
+        function cardHTML(n) {
+            const verified = n.score > 20, bad = n.score <= -5, saved = state.saved.has(n.id);
+            return `
+            <div id="note-${n.id}" class="${state.highlightId === n.id ? 'flash-new ' : ''}border ${bad ? 'border-rose-300 bg-rose-50/40' : 'border-slate-200 bg-white'} rounded-xl p-4 hover:shadow-md transition-shadow cursor-pointer" onclick="openNote(${n.id})">
+                <div class="flex justify-between items-start mb-2">
+                    <div class="flex items-center gap-2 flex-wrap">
+                        <span class="text-xs font-semibold ${typeClass(n.type, n.id)} px-2 py-1 rounded">${n.type}</span>
+                        <span class="text-[10px] font-medium text-slate-500 bg-slate-100 px-2 py-1 rounded">${COURSES[n.course].short}</span>
+                        <span class="text-[10px] font-medium text-slate-400 bg-slate-50 border border-slate-200 px-2 py-1 rounded">${semShort(n)}</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <div class="flex items-center gap-1 text-xs">
+                            <i class="fas fa-thumbs-${n.score < 0 ? 'down text-rose-500' : 'up text-brand-500'}"></i>
+                            <span class="font-bold ${n.score < 0 ? 'text-rose-600' : 'text-slate-700'}">${n.score}</span>
+                        </div>
+                        <button onclick="event.stopPropagation(); toggleBookmark(${n.id})" class="w-7 h-7 flex items-center justify-center rounded-full hover:bg-slate-100" aria-label="Simpan catatan">
+                            <i class="${saved ? 'fas text-amber-500' : 'far text-slate-400'} fa-bookmark"></i>
+                        </button>
+                    </div>
+                </div>
+                <h3 class="font-bold text-slate-800 leading-tight mb-2">${n.title}</h3>
+                ${n.own ? '<span class="inline-flex items-center gap-1 text-[10px] font-bold text-amber-700 bg-amber-50 border border-amber-200 px-2 py-0.5 rounded-full mr-1"><i class="fas fa-hourglass-half"></i> Baru &middot; menunggu validasi</span>' : ''}
+                ${(n.reports || 0) >= 3 ? '<span class="inline-flex items-center gap-1 text-[10px] font-bold text-orange-700 bg-orange-50 border border-orange-200 px-2 py-0.5 rounded-full mr-1"><i class="fas fa-flag"></i> Dalam tinjauan moderator</span>' : ''}
+                ${verified ? '<span class="inline-flex items-center gap-1 text-[10px] font-bold text-emerald-700 bg-emerald-50 border border-emerald-200 px-2 py-0.5 rounded-full"><i class="fas fa-circle-check"></i> Terverifikasi Net Score &gt; 20</span>' : ''}
+                ${bad ? '<div class="flex items-center gap-1.5 text-[11px] font-semibold text-rose-700 bg-rose-100 border border-rose-200 px-2 py-1 rounded-lg"><i class="fas fa-triangle-exclamation"></i> Ditandai kurang sesuai oleh komunitas</div>' : ''}
+                <div class="flex items-center justify-between mt-3">
+                    <div class="flex items-center gap-2">
+                        <div class="w-6 h-6 rounded-full bg-slate-200 overflow-hidden"><img src="https://ui-avatars.com/api/?name=${n.av}&background=random" class="w-full h-full"></div>
+                        <span class="text-xs text-slate-600 font-medium">${n.short} ${n.top ? '<i class="fas fa-medal text-yellow-500 ml-1" title="Top Contributor"></i>' : ''}</span>
+                    </div>
+                    <span class="text-xs text-slate-400">${n.time}</span>
+                </div>
+            </div>`;
+        }
+
+        function buildCourseOptions() {
+            const prodi = document.getElementById('filter-prodi').value;
+            const sel = document.getElementById('filter-course');
+            const ids = [...new Set(NOTES.filter(n => prodi === 'all' || n.prodi === prodi).map(n => n.course))];
+            sel.innerHTML = '<option value="all">Semua Mata Kuliah</option>' +
+                ids.map(c => '<option value="' + c + '">' + COURSES[c].label + '</option>').join('');
+        }
+        function onProdiChange() { buildCourseOptions(); renderFeed(); }
+
+        function renderFeed() {
+            const qEl = document.getElementById('search-input');
+            const q = qEl.value.trim().toLowerCase();
+            const prodi = document.getElementById('filter-prodi').value;
+            const course = document.getElementById('filter-course').value;
+            const sem = document.getElementById('filter-sem').value;
+            document.getElementById('search-clear').classList.toggle('hidden', !qEl.value);
+
+            const list = NOTES.filter(n =>
+                (prodi === 'all' || n.prodi === prodi) &&
+                (course === 'all' || n.course === course) &&
+                (sem === 'all' || semOf(n) === sem) &&
+                (!q || (n.title + ' ' + n.course + ' ' + COURSES[n.course].label + ' ' + n.tags).toLowerCase().includes(q))
+            ).filter(n => feedSort === 'ver' ? n.score > 20 : feedSort === 'saved' ? state.saved.has(n.id) : true)
+            .sort((a, b) => feedSort === 'new' ? (ageDays(a) - ageDays(b) || b.id - a.id) : b.score - a.score);
+            renderSortChips();
+
+            document.getElementById('feed-count').innerText = '(' + list.length + ')';
+            document.getElementById('note-feed').innerHTML = list.length
+                ? list.map(cardHTML).join('')
+                : `<div class="text-center py-10 text-slate-400">
+                       <img src="${ASSET.owl}" alt="" class="w-24 mx-auto mb-3 opacity-90">
+                       <p class="text-sm font-semibold text-slate-500">Tidak ada catatan yang cocok</p>
+                       <p class="text-xs mt-1">Coba kata kunci atau filter lain.</p>
+                   </div>`;
+        }
+
+        function applyFilter() {
+            renderFeed();
+            const n = document.querySelectorAll('#note-feed > div[onclick]').length;
+            showToast('Filter diterapkan: ' + n + ' catatan ditemukan', 'success');
+        }
+        function clearSearch() { document.getElementById('search-input').value = ''; renderFeed(); }
+        function resetFilters() {
+            document.getElementById('search-input').value = '';
+            document.getElementById('filter-prodi').value = 'all';
+            feedSort = 'pop';
+            document.getElementById('filter-sem').value = 'all';
+            buildCourseOptions();
+            renderFeed();
+        }
+
+        /* ============================================================
+           REPORT
+           ============================================================ */
+        const REPORT_REASONS = [
+            'Isi tidak sesuai mata kuliah',
+            'Bocoran soal / pelanggaran integritas akademik',
+            'Plagiat atau tanpa sumber',
+            'Spam atau tidak relevan',
+            'Konten tidak pantas',
+            'Lainnya'
+        ];
+        let reportReason = null;
+
+        function renderReasons() {
+            document.getElementById('rp-reasons').innerHTML = REPORT_REASONS.map((r, i) => {
+                const sel = reportReason === i;
+                return `<button type="button" onclick="pickReason(${i})" class="w-full flex items-center gap-3 text-left border rounded-xl p-3 text-sm transition-colors ${sel ? 'border-rose-400 bg-rose-50 text-rose-700 font-semibold' : 'border-slate-200 text-slate-700 hover:bg-slate-50'}">
+                    <span class="w-4 h-4 rounded-full border-2 shrink-0 ${sel ? 'border-rose-500 bg-rose-500' : 'border-slate-300'}"></span>${r}</button>`;
+            }).join('');
+        }
+        function pickReason(i) { reportReason = i; renderReasons(); document.getElementById('rp-submit').disabled = false; }
+
+        function openReport() {
+            const n = getNote(state.currentId);
+            if (!n || n.own || state.reported.has(n.id)) return;
+            reportReason = null;
+            document.getElementById('rp-note').innerText = 'Catatan: ' + n.title;
+            document.getElementById('rp-detail').value = '';
+            document.getElementById('rp-submit').disabled = true;
+            renderReasons();
+            const m = document.getElementById('report-modal'), c = document.getElementById('report-content');
+            m.classList.remove('hidden'); m.classList.add('flex'); void m.offsetWidth;
+            m.classList.remove('opacity-0'); c.classList.remove('translate-y-full');
+        }
+        function closeReport() {
+            const m = document.getElementById('report-modal'), c = document.getElementById('report-content');
+            m.classList.add('opacity-0'); c.classList.add('translate-y-full');
+            setTimeout(() => { m.classList.add('hidden'); m.classList.remove('flex'); }, 300);
+        }
+        function submitReport() {
+            const n = getNote(state.currentId);
+            if (reportReason === null || !n) return;
+            const was = n.reports || 0;
+            n.reports = was + 1;
+            state.reported.add(n.id);
+            closeReport();
+            renderDetail(); renderFeed();
+            showToast('🚩 Laporan terkirim. Terima kasih sudah menjaga kualitas kampus!', 'success');
+            if (was < 3 && n.reports >= 3) setTimeout(() => showToast('🛡️ Dokumen kini masuk antrean tinjauan moderator', 'info'), 1200);
+        }
+
+        /* ============================================================
+           BOOKMARK
+           ============================================================ */
+        function toggleBookmark(id) {
+            if (state.saved.has(id)) { state.saved.delete(id); showToast('Dihapus dari catatan tersimpan'); }
+            else { state.saved.add(id); showToast('🔖 Disimpan ke halaman Profil', 'success'); }
+            renderFeed();
+            if (state.currentId === id) renderDetail();
+            renderProfile();
+        }
+
+        /* ============================================================
+           DETAIL + PRATINJAU DOKUMEN
+           ============================================================ */
+        function openNote(id) {
+            state.currentId = id;
+            renderDetail();
+            navigate('detail');
+        }
+
+        function pageHTML(n, p, i, total) {
+            return `<div class="bg-white rounded-lg shadow-sm border border-slate-200 p-4 min-h-[300px]">
+                <p class="text-[10px] text-slate-400 mb-2 truncate">${n.title} &middot; Hal. ${i + 1}/${total}</p>
+                <h3 class="text-sm font-bold text-slate-800 mb-2">${p.h}</h3>
+                ${p.p.map(x => `<p class="text-xs leading-relaxed text-slate-700 mb-2">${x}</p>`).join('')}
+            </div>`;
+        }
+
+        function renderDetail(pop) {
+            const n = getNote(state.currentId);
+            if (!n) return;
+            const body = document.getElementById('detail-body');
+            const prev = document.getElementById('preview-scroll');
+            const keepScroll = prev ? prev.scrollTop : 0;
+
+            const unlocked = state.unlocked.has(n.id), q = state.userQuota;
+            const vote = state.votes[n.id] || 0;
+            const verified = n.score > 20, bad = n.score <= -5, saved = state.saved.has(n.id);
+            const pages = PAGES[n.course];
+            const canDl = unlocked || q > 0;
+
+            const preview = unlocked
+                ? `<div class="mb-5">
+                       <div class="flex items-center justify-between mb-2">
+                           <span class="text-xs font-bold text-slate-600"><i class="fas fa-book-open text-brand-500 mr-1"></i> Pratinjau Dokumen (${pages.length} halaman)</span>
+                           <span class="text-[10px] text-slate-400">Gulir <i class="fas fa-arrow-down"></i></span>
+                       </div>
+                       <div id="preview-scroll" class="h-[380px] overflow-y-auto rounded-xl border border-slate-200 bg-slate-100 p-3 space-y-3">
+                           ${pages.map((p, i) => pageHTML(n, p, i, pages.length)).join('')}
+                       </div>
+                   </div>`
+                : `<div class="relative w-full aspect-[4/3] rounded-xl border border-slate-200 overflow-hidden mb-5 bg-white">
+                       <div class="absolute inset-0 p-4 select-none pointer-events-none" style="filter: blur(6px);" aria-hidden="true">
+                           ${pageHTML(n, pages[0], 0, pages.length)}
+                       </div>
+                       <div class="absolute inset-0 bg-white/60 flex flex-col items-center justify-center text-center px-6">
+                           <div class="w-12 h-12 rounded-full bg-white shadow flex items-center justify-center mb-3"><i class="fas fa-lock text-slate-500 text-lg"></i></div>
+                           <p class="text-sm font-semibold text-slate-700 mb-3">Buka kunci dengan 1 kuota untuk membaca isi penuh</p>
+                           <button onclick="unlockNote(${n.id})" class="bg-brand-500 hover:bg-brand-600 text-white text-sm font-bold px-4 py-2 rounded-lg shadow flex items-center gap-2"><i class="fas fa-unlock"></i> Buka Kunci (1 Kuota)</button>
+                       </div>
+                   </div>`;
+
+            const dlLabel = unlocked ? 'Unduh Dokumen (Gratis, sudah dibuka)'
+                          : q > 0 ? 'Unduh Dokumen (1 Kuota, sisa ' + q + ')'
+                          : 'Unduh Dokumen (0 Kuota)';
+
+            body.innerHTML = `
+                ${bad ? `<div class="flex items-start gap-2 bg-rose-50 border border-rose-200 text-rose-700 rounded-xl p-3 mb-4">
+                            <i class="fas fa-triangle-exclamation mt-0.5"></i>
+                            <div><p class="text-xs font-bold">Dokumen ini ditandai kurang sesuai oleh komunitas</p>
+                            <p class="text-[11px] mt-0.5">Net score ${n.score}. Periksa isi dokumen dengan teliti sebelum dijadikan referensi.</p></div>
+                        </div>` : ''}
+                ${(n.reports || 0) >= 3 ? `<div class="flex items-start gap-2 bg-orange-50 border border-orange-200 text-orange-700 rounded-xl p-3 mb-4">
+                            <i class="fas fa-flag mt-0.5"></i>
+                            <div><p class="text-xs font-bold">Dokumen sedang ditinjau moderator</p>
+                            <p class="text-[11px] mt-0.5">${n.reports} laporan dari komunitas. Gunakan dengan hati-hati sampai ada hasil tinjauan.</p></div>
+                        </div>` : ''}
+                ${preview}
+                <div class="flex items-start justify-between gap-3 mb-2">
+                    <h2 class="text-xl font-bold text-slate-900 leading-snug">${n.title}</h2>
+                    <button onclick="toggleBookmark(${n.id})" class="w-9 h-9 shrink-0 flex items-center justify-center rounded-full border border-slate-200 hover:bg-slate-50" aria-label="Simpan catatan">
+                        <i class="${saved ? 'fas text-amber-500' : 'far text-slate-400'} fa-bookmark"></i>
+                    </button>
+                </div>
+                <div class="flex flex-wrap gap-2 mb-4">
+                    <span class="text-[10px] font-medium text-slate-500 bg-slate-100 px-2 py-1 rounded">${COURSES[n.course].label}</span>
+                    <span class="text-[10px] font-medium text-brand-700 bg-brand-50 border border-brand-100 px-2 py-1 rounded"><i class="fas fa-graduation-cap mr-1"></i>${PRODI[n.prodi]}</span>
+                    <span class="text-[10px] font-medium text-slate-600 bg-white border border-slate-200 px-2 py-1 rounded"><i class="fas fa-calendar-days mr-1"></i>Semester ${semOf(n)}</span>
+                    ${n.own ? '<span class="text-[10px] font-bold text-amber-700 bg-amber-50 border border-amber-200 px-2 py-1 rounded">Catatanmu &middot; pratinjau simulasi</span>' : ''}
+                    ${verified ? '<span class="inline-flex items-center gap-1 text-[10px] font-bold text-emerald-700 bg-emerald-50 border border-emerald-200 px-2 py-1 rounded-full"><i class="fas fa-circle-check"></i> Terverifikasi Net Score &gt; 20</span>' : ''}
+                </div>
+
+                <div class="grid grid-cols-3 gap-2 mb-4 text-center">
+                    <div class="bg-slate-50 rounded-lg py-2"><p class="text-sm font-bold text-slate-700">${n.own ? '-' : pages.length * 5}</p><p class="text-[10px] text-slate-400">Halaman</p></div>
+                    <div class="bg-slate-50 rounded-lg py-2"><p class="text-sm font-bold text-slate-700">${n.own ? fmtSize(n.size) : fmtSize((300 + (n.id * 137) % 1400) * 1024)}</p><p class="text-[10px] text-slate-400">Ukuran</p></div>
+                    <div class="bg-slate-50 rounded-lg py-2"><p class="text-sm font-bold text-slate-700">${n.own ? 0 : Math.max(2, n.score * 3 + n.id % 7)}x</p><p class="text-[10px] text-slate-400">Diunduh</p></div>
+                </div>
+                <div class="flex items-center justify-between bg-slate-50 p-3 rounded-lg border border-slate-100 mb-6">
+                    <div class="flex items-center gap-3">
+                        <img src="https://ui-avatars.com/api/?name=${n.av}&background=random" class="w-10 h-10 rounded-full border-2 border-white shadow-sm">
+                        <div>
+                            <p class="text-sm font-bold text-slate-800">${n.author}</p>
+                            <p class="text-xs text-slate-500">${n.sub}</p>
+                        </div>
+                    </div>
+                    ${n.top ? `<div class="flex flex-col items-center bg-yellow-50 px-2 py-1 rounded border border-yellow-200">
+                        <i class="fas fa-medal text-yellow-500 text-lg"></i>
+                        <span class="text-[10px] font-bold text-yellow-700 mt-0.5">Top Contributor</span></div>` : ''}
+                </div>
+
+                <div class="flex justify-center mb-2">
+                    <div class="inline-flex items-center bg-white border-2 border-slate-200 rounded-full shadow-sm overflow-hidden">
+                        <button onclick="castVote(1)" class="px-5 py-2 ${vote === 1 ? 'bg-brand-50 text-brand-600' : 'text-slate-400'} hover:text-brand-500 hover:bg-slate-50 transition-colors focus:outline-none"><i class="fas fa-thumbs-up text-lg"></i></button>
+                        <div id="vote-score" class="px-4 py-2 border-l border-r border-slate-200 font-bold text-lg min-w-[60px] text-center ${vote === 1 ? 'text-brand-600' : vote === -1 ? 'text-rose-600' : 'text-slate-800'}">${n.score}</div>
+                        <button onclick="castVote(-1)" class="px-5 py-2 ${vote === -1 ? 'bg-rose-50 text-rose-600' : 'text-slate-400'} hover:text-red-500 hover:bg-slate-50 transition-colors focus:outline-none"><i class="fas fa-thumbs-down text-lg"></i></button>
+                    </div>
+                </div>
+                <p class="text-center text-[11px] text-slate-400 mb-6">${vote === 1 ? 'Anda memberi upvote pada catatan ini' : vote === -1 ? 'Anda memberi downvote pada catatan ini' : 'Klik untuk menilai kualitas catatan ini'}</p>
+
+                <div class="space-y-3">
+                    <button onclick="handleDownload()" class="w-full font-bold py-3.5 rounded-xl border flex items-center justify-center gap-2 transition-all ${canDl ? 'bg-white text-brand-600 border-brand-500 hover:bg-brand-50' : 'bg-slate-200 text-slate-500 border-slate-300'}">
+                        <i class="fas ${canDl ? 'fa-download' : 'fa-lock'}"></i><span>${dlLabel}</span>
+                    </button>
+                    <button onclick="openUploadModal()" class="w-full bg-brand-500 hover:bg-brand-600 text-white font-bold py-3.5 rounded-xl shadow-lg shadow-brand-500/30 flex items-center justify-center gap-2 transition-all">
+                        <i class="fas fa-upload"></i> Unggah 1 Catatan untuk Buka Kunci
+                    </button>
+                </div>
+                <p class="text-center text-xs text-slate-400 mt-4 px-4">Sistem Fair-Play: Dapatkan 5 kuota unduh untuk setiap 1 dokumen yang divalidasi komunitas.</p>
+                ${n.own ? '' : state.reported.has(n.id)
+                    ? '<div class="text-center mt-3 text-xs text-emerald-600 font-semibold"><i class="fas fa-check-circle mr-1"></i> Laporanmu sudah terkirim</div>'
+                    : '<button onclick="openReport()" class="mx-auto mt-3 flex items-center gap-1.5 text-xs text-slate-400 hover:text-rose-600 font-semibold"><i class="far fa-flag"></i> Laporkan catatan ini</button>'}`;
+
+            const sc = document.getElementById('preview-scroll');
+            if (sc) sc.scrollTop = keepScroll;
+            if (pop) {
+                const el = document.getElementById('vote-score');
+                el.classList.add('pop-anim');
+            }
+        }
+
+        /* ============================================================
+           LOGIC BARTER: UPLOAD -> KUOTA
+           ============================================================ */
+        let feedSort = 'pop';
+        const up = { file: null };
+        const SORTS = [['pop', 'Terpopuler', 'fa-fire'], ['new', 'Terbaru', 'fa-clock'], ['ver', 'Terverifikasi', 'fa-circle-check'], ['saved', 'Tersimpan', 'fa-bookmark']];
+        function ageDays(n) {
+            if (/baru/i.test(n.time)) return 0;
+            const m = n.time.match(/(\d+) (hari|minggu)/);
+            return m ? m[1] * (m[2] === 'minggu' ? 7 : 1) : 99;
+        }
+        function setSort(k) { feedSort = k; renderFeed(); }
+        function renderSortChips() {
+            document.getElementById('sort-chips').innerHTML = SORTS.map(([k, label, ic]) =>
+                `<button onclick="setSort('${k}')" class="shrink-0 text-xs font-semibold px-3 py-1.5 rounded-full border transition-colors ${feedSort === k ? 'bg-brand-500 text-white border-brand-500' : 'bg-white text-slate-600 border-slate-200 hover:bg-slate-50'}"><i class="fas ${ic} mr-1"></i>${label}</button>`).join('');
+        }
+
+        /* ---------- Form unggah ---------- */
+        const fmtSize = b => b >= 1048576 ? (b / 1048576).toFixed(1) + ' MB' : Math.round(b / 1024) + ' KB';
+
+        function upBuildCourses(keep) {
+            const prodi = document.getElementById('up-prodi').value;
+            const ids = [...new Set(NOTES.filter(n => n.prodi === prodi).map(n => n.course))];
+            document.getElementById('up-course').innerHTML = ids.map(c => '<option value="' + c + '">' + COURSES[c].label + '</option>').join('');
+            if (keep) document.getElementById('up-course').value = keep;
+            validateUpload();
+        }
+
+        function renderDrop() {
+            const d = document.getElementById('up-drop'), f = up.file;
+            d.innerHTML = f
+                ? `<div class="flex items-center gap-3">
+                       <div class="w-10 h-10 rounded-lg ${/docx$/i.test(f.name) ? 'bg-indigo-50' : 'bg-red-50'} flex items-center justify-center shrink-0"><i class="fas ${/docx$/i.test(f.name) ? 'fa-file-word text-indigo-400' : 'fa-file-pdf text-red-400'}"></i></div>
+                       <div class="flex-1 min-w-0 text-left"><p class="text-sm font-bold text-slate-800 truncate">${f.name}</p><p class="text-[11px] text-slate-400">${fmtSize(f.size)}${f.demo ? ' &middot; file contoh' : ''} &middot; siap diunggah</p></div>
+                       <button type="button" onclick="event.stopPropagation(); clearFile()" class="w-8 h-8 rounded-full hover:bg-slate-200 text-slate-400" aria-label="Hapus file"><i class="fas fa-times"></i></button>
+                   </div>`
+                : `<div class="flex flex-col items-center justify-center text-slate-400">
+                       <i class="fas fa-file-upload text-3xl mb-2 text-brand-300"></i>
+                       <span class="text-sm font-medium">Tap atau seret file ke sini</span>
+                       <span class="text-xs mt-1">PDF / DOCX &middot; Maks 5MB</span>
+                   </div>`;
+        }
+
+        function upError(msg) {
+            const e = document.getElementById('up-error');
+            e.innerText = msg || ''; e.classList.toggle('hidden', !msg);
+        }
+
+        function onFilePicked(f) {
+            if (!f) return;
+            if (!/\.(pdf|docx)$/i.test(f.name)) { upError('Format tidak didukung. Gunakan PDF atau DOCX.'); return; }
+            if (f.size > 5 * 1024 * 1024) { upError('Ukuran file ' + fmtSize(f.size) + ' melebihi batas 5MB.'); return; }
+            upError('');
+            up.file = f;
+            const ti = document.getElementById('up-title');
+            if (!ti.value.trim()) ti.value = f.name.replace(/\.[^.]+$/, '').replace(/[-_]+/g, ' ');
+            renderDrop(); validateUpload();
+        }
+
+        function useDemoFile() {
+            up.file = { name: 'Resume-Pertemuan-4.pdf', size: 842 * 1024, demo: true };
+            document.getElementById('up-title').value = 'Resume Pertemuan 4 - Empati & Define';
+            document.getElementById('up-prodi').value = 'pm';
+            upBuildCourses('dt');
+            upError(''); renderDrop(); validateUpload();
+        }
+
+        function clearFile() {
+            up.file = null; document.getElementById('up-file').value = '';
+            renderDrop(); validateUpload();
+        }
+
+        function validateUpload() {
+            const ok = document.getElementById('up-title').value.trim().length >= 3 && !!up.file && !!document.getElementById('up-course').value;
+            document.getElementById('up-submit').disabled = !ok;
+            return ok;
+        }
+
+        function resetUploadForm() {
+            up.file = null;
+            document.getElementById('up-file').value = '';
+            document.getElementById('up-title').value = '';
+            document.getElementById('up-prodi').innerHTML = Object.entries(PRODI).map(([k, v]) => '<option value="' + k + '">' + v + '</option>').join('');
+            upBuildCourses(); upError(''); renderDrop(); validateUpload();
+            document.getElementById('up-step-form').classList.remove('hidden');
+            document.getElementById('up-step-progress').classList.add('hidden');
+            document.getElementById('up-icon').innerHTML = '<i class="fas fa-cloud-arrow-up text-brand-500 text-2xl"></i>';
+            document.getElementById('up-icon').className = 'w-14 h-14 mx-auto rounded-full bg-brand-50 flex items-center justify-center mb-4';
+        }
+
+        function setUpProgress(p, msg) {
+            document.getElementById('up-bar').style.width = p + '%';
+            document.getElementById('up-pct').innerText = Math.round(p) + '%';
+            if (msg) document.getElementById('up-status').innerText = msg;
+        }
+
+        function confetti() {
+            const cols = ['#10b981', '#3b82f6', '#f59e0b', '#ef4444', '#8b5cf6'];
+            for (let i = 0; i < 44; i++) {
+                const d = document.createElement('div');
+                d.style.cssText = 'position:fixed;left:50%;top:45%;width:8px;height:12px;border-radius:2px;z-index:70;pointer-events:none;background:' + cols[i % 5];
+                document.body.appendChild(d);
+                const x = (Math.random() - .5) * 420, y = -Math.random() * 260 - 60;
+                d.animate([
+                    { transform: 'translate(0,0) rotate(0deg)', opacity: 1 },
+                    { transform: `translate(${x}px,${y}px) rotate(${Math.random() * 540}deg)`, opacity: 1, offset: .4 },
+                    { transform: `translate(${x * 1.2}px,${y + 520}px) rotate(${Math.random() * 900}deg)`, opacity: 0 }
+                ], { duration: 1400 + Math.random() * 700, easing: 'cubic-bezier(.2,.7,.4,1)' }).onfinish = () => d.remove();
+            }
+        }
+
+        function submitUpload() {
+            if (!validateUpload()) return;
+            const title = document.getElementById('up-title').value.trim();
+            const prodi = document.getElementById('up-prodi').value;
+            const course = document.getElementById('up-course').value;
+            const f = up.file;
+
+            document.getElementById('up-step-form').classList.add('hidden');
+            document.getElementById('up-step-progress').classList.remove('hidden');
+            let p = 0; setUpProgress(0, 'Mengunggah berkas...');
+            const iv = setInterval(() => {
+                p = Math.min(100, p + Math.random() * 9 + 3);
+                setUpProgress(p, p < 60 ? 'Mengunggah berkas...' : p < 90 ? 'Memeriksa format & duplikasi...' : 'Menyimpan catatan...');
+                if (p >= 100) { clearInterval(iv); finish(); }
+            }, 110);
+
+            function finish() {
+                const note = {
+                    id: Math.max(...NOTES.map(n => n.id)) + 1, title, course, prodi,
+                    type: /docx$/i.test(f.name) ? 'DOCX' : 'PDF', score: 0,
+                    author: USER.name, short: 'Kamu', sub: PRODI[USER.prodi] + " '" + String(USER.angkatan).slice(2), av: USER.name.replace(/ /g, '+'), top: false, size: f.size, sem: SEMESTER_NOW,
+                    time: 'Baru saja', tags: '', own: true, fileName: f.name,
+                    fileUrl: f.demo ? null : URL.createObjectURL(f)
+                };
+                NOTES.push(note);
+                state.unlocked.add(note.id);
+                document.getElementById('up-icon').className = 'w-14 h-14 mx-auto rounded-full bg-emerald-100 flex items-center justify-center mb-4';
+                document.getElementById('up-icon').innerHTML = '<i class="fas fa-check text-emerald-600 text-2xl"></i>';
+                document.getElementById('up-status').innerText = 'Berhasil diunggah!';
+                setTimeout(() => {
+                    closeUploadModal();
+                    state.userQuota += 5;
+                    state.userContributions += 1;
+                    resetFilters(); feedSort = 'new'; state.highlightId = note.id;
+                    updateUIBasedOnQuota();
+                    navigate('home');
+                    setTimeout(() => { const el = document.getElementById('note-' + note.id); if (el) el.scrollIntoView({ block: 'center', behavior: 'smooth' }); }, 150);
+                    setTimeout(() => { state.highlightId = null; }, 3000);
+                    confetti();
+                    showToast('🎉 Catatanmu terunggah! +5 Kuota Unduh.', 'success');
+                    if (state.userContributions === LEGEND_TARGET) setTimeout(() => showToast('🏆 Lencana Legenda Kampus terbuka!', 'success'), 1300);
+                }, 900);
+            }
+        }
+
+        /* ============================================================
+           BUKA KUNCI + UNDUH PDF NYATA
+           ============================================================ */
+        function unlockNote(id) {
+            if (state.unlocked.has(id)) return;
+            if (state.userQuota < 1) {
+                showToast('❌ Kuota habis! Unggah 1 catatan untuk membuka kunci.', 'error');
+                setTimeout(openUploadModal, 600);
+                return;
+            }
+            state.userQuota -= 1;
+            state.unlocked.add(id);
+            updateUIBasedOnQuota();
+            showToast('🔓 Dokumen terbuka! (-1 Kuota)', 'success');
+        }
+
+        function handleDownload() {
+            const n = getNote(state.currentId);
+            if (state.unlocked.has(n.id)) {
+                state.userDownloads += 1;
+                updateUIBasedOnQuota();
+                downloadPDF(n);
+                showToast('⬇️ Dokumen berhasil diunduh! (gratis, sudah dibuka)', 'success');
+            } else if (state.userQuota > 0) {
+                state.userQuota -= 1;
+                state.userDownloads += 1;
+                state.unlocked.add(n.id);
+                updateUIBasedOnQuota();
+                downloadPDF(n);
+                showToast('⬇️ Dokumen berhasil diunduh! (-1 Kuota)', 'success');
+            } else {
+                showToast('❌ Kuota habis! Unggah 1 catatan untuk membuka kunci.', 'error');
+                setTimeout(openUploadModal, 600);
+            }
+        }
+
+        function wrapText(text, width) {
+            const out = []; let line = '';
+            text.split(' ').forEach(w => {
+                if ((line + ' ' + w).trim().length > width) { out.push(line); line = w; }
+                else line = (line + ' ' + w).trim();
+            });
+            if (line) out.push(line);
+            return out;
+        }
+
+        function buildPDF(pages) {
+            const esc = s => s.replace(/[^\x20-\x7E]/g, '').replace(/\\/g, '\\\\').replace(/\(/g, '\\(').replace(/\)/g, '\\)');
+            const objs = [];
+            objs[1] = '<< /Type /Catalog /Pages 2 0 R >>';
+            objs[2] = '<< /Type /Pages /Kids [' + pages.map((_, i) => (4 + 2 * i) + ' 0 R').join(' ') + '] /Count ' + pages.length + ' >>';
+            objs[3] = '<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>';
+            pages.forEach((lines, i) => {
+                let c = 'BT 15 TL 50 790 Td\n';
+                lines.forEach(l => {
+                    if (l.startsWith('#')) c += '/F1 14 Tf (' + esc(l.slice(1)) + ') Tj /F1 11 Tf T*\n';
+                    else c += '/F1 11 Tf (' + esc(l) + ') Tj T*\n';
+                });
+                c += 'ET';
+                objs[4 + 2 * i] = '<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents ' + (5 + 2 * i) + ' 0 R >>';
+                objs[5 + 2 * i] = '<< /Length ' + c.length + ' >>\nstream\n' + c + '\nendstream';
+            });
+            const N = objs.length - 1;
+            let out = '%PDF-1.4\n'; const off = [];
+            for (let id = 1; id <= N; id++) { off[id] = out.length; out += id + ' 0 obj\n' + objs[id] + '\nendobj\n'; }
+            const xref = out.length;
+            out += 'xref\n0 ' + (N + 1) + '\n0000000000 65535 f \n';
+            for (let id = 1; id <= N; id++) out += String(off[id]).padStart(10, '0') + ' 00000 n \n';
+            out += 'trailer\n<< /Size ' + (N + 1) + ' /Root 1 0 R >>\nstartxref\n' + xref + '\n%%EOF';
+            return out;
+        }
+
+        function downloadPDF(n) {
+            if (n.fileUrl) {
+                const a0 = document.createElement('a'); a0.href = n.fileUrl; a0.download = n.fileName;
+                document.body.appendChild(a0); a0.click(); a0.remove(); return;
+            }
+            const src = PAGES[n.course];
+            const pages = src.map((p, i) => {
+                const lines = [];
+                if (i === 0) { lines.push('#' + n.title, 'Oleh ' + n.author + ' | Dokumen sampel CataTukar', ''); }
+                lines.push('#' + p.h, '');
+                p.p.forEach(t => { wrapText(t, 85).forEach(l => lines.push(l)); lines.push(''); });
+                lines.push('', 'Halaman ' + (i + 1) + ' dari ' + src.length);
+                return lines;
+            });
+            const blob = new Blob([buildPDF(pages)], { type: 'application/pdf' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'catatukar-' + n.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') + '.pdf';
+            document.body.appendChild(a); a.click(); a.remove();
+            setTimeout(() => URL.revokeObjectURL(url), 1000);
+        }
+
+        /* ============================================================
+           UPDATE UI BERDASARKAN KUOTA
+           ============================================================ */
+        function updateUIBasedOnQuota() {
+            if (window.authPersistQuota) authPersistQuota(state.userQuota);
+            const qc = document.getElementById('quota-counter'), qTxt = 'Kuota: ' + state.userQuota;
+            if (qc.innerText !== qTxt) { qc.innerText = qTxt; qc.classList.remove('pop-anim'); void qc.offsetWidth; qc.classList.add('pop-anim'); }
+            document.getElementById('profile-quota').innerText = state.userQuota;
+            document.getElementById('profile-contributions').innerText = state.userContributions;
+            document.getElementById('profile-downloads').innerText = state.userDownloads;
+            if (state.currentId !== null) renderDetail();
+            renderProfile();
+        }
+
+        /* ============================================================
+           PROFIL: PROGRESS LENCANA + CATATAN TERSIMPAN
+           ============================================================ */
+        function renderProfile() {
+            document.getElementById('profile-sem').innerText = 'Angkatan ' + USER.angkatan + ' \u00b7 Semester ' + userSem + ' \u00b7 ' + SEMESTER_NOW;
+            const done = state.userContributions, left = Math.max(0, LEGEND_TARGET - done);
+            const pct = Math.min(100, Math.round(done / LEGEND_TARGET * 100));
+            document.getElementById('progress-title').innerText = left > 0
+                ? left + ' unggahan lagi untuk membuka lencana Legenda Kampus'
+                : 'Lencana Legenda Kampus terbuka! 🎉';
+            document.getElementById('progress-sub').innerText = left > 0
+                ? 'Setiap catatan yang kamu bagikan membawamu lebih dekat.'
+                : 'Terima kasih sudah jadi kontributor andalan kampus.';
+            document.getElementById('progress-bar').style.width = pct + '%';
+            document.getElementById('progress-left').innerText = done + ' unggahan';
+            document.getElementById('progress-right').innerText = LEGEND_TARGET + ' unggahan';
+
+            const badge = document.getElementById('badge-legenda');
+            const unlockedLegend = left === 0;
+            badge.className = unlockedLegend
+                ? 'flex flex-col items-center bg-white border border-purple-200 rounded-xl p-3 shadow-sm'
+                : 'flex flex-col items-center bg-slate-50 border border-slate-200 rounded-xl p-3 opacity-60';
+            badge.innerHTML = unlockedLegend
+                ? '<div class="w-11 h-11 rounded-full bg-purple-100 flex items-center justify-center mb-2"><i class="fas fa-crown text-purple-600 text-lg"></i></div><span class="text-[10px] font-bold text-slate-700 text-center leading-tight">Legenda Kampus</span><span class="text-[9px] text-slate-400 mt-0.5">10+ upload</span>'
+                : '<div class="w-11 h-11 rounded-full bg-slate-200 flex items-center justify-center mb-2"><i class="fas fa-lock text-slate-400 text-base"></i></div><span class="text-[10px] font-bold text-slate-500 text-center leading-tight">Legenda Kampus</span><span class="text-[9px] text-slate-400 mt-0.5">10+ upload</span>';
+            document.getElementById('badge-count').innerText = (unlockedLegend ? 4 : 3) + ' / 6 Terbuka';
+
+            document.getElementById('my-uploads').innerHTML = NOTES.filter(n => n.own).reverse().map(n => `
+                <div class="flex items-center gap-3 border border-emerald-200 ring-1 ring-emerald-100 rounded-xl p-3 bg-white cursor-pointer" onclick="openNote(${n.id})">
+                    <div class="w-10 h-10 rounded-lg ${n.type === 'DOCX' ? 'bg-indigo-50' : 'bg-red-50'} flex items-center justify-center shrink-0"><i class="fas ${n.type === 'DOCX' ? 'fa-file-word text-indigo-400' : 'fa-file-pdf text-red-400'}"></i></div>
+                    <div class="flex-1 min-w-0"><p class="text-xs font-bold text-slate-800 truncate">${n.title}</p><p class="text-[10px] text-slate-400 mt-0.5">${COURSES[n.course].short} &middot; Baru saja</p></div>
+                    <span class="text-[10px] font-bold text-amber-700 bg-amber-50 px-2 py-1 rounded-full shrink-0">Menunggu validasi</span>
+                </div>`).join('');
+
+            const saved = NOTES.filter(n => state.saved.has(n.id));
+            document.getElementById('saved-count').innerText = saved.length + ' catatan';
+            document.getElementById('saved-list').innerHTML = saved.length
+                ? saved.map(n => `
+                    <div class="flex items-center gap-3 border border-slate-200 rounded-xl p-3 bg-white cursor-pointer" onclick="openNote(${n.id})">
+                        <div class="w-10 h-10 rounded-lg ${n.type === 'DOCX' ? 'bg-indigo-50' : 'bg-red-50'} flex items-center justify-center shrink-0">
+                            <i class="fas ${n.type === 'DOCX' ? 'fa-file-word text-indigo-400' : 'fa-file-pdf text-red-400'}"></i>
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <p class="text-xs font-bold text-slate-800 truncate">${n.title}</p>
+                            <p class="text-[10px] text-slate-400 mt-0.5">${COURSES[n.course].short} &middot; ${n.score} upvote</p>
+                        </div>
+                        <button onclick="event.stopPropagation(); toggleBookmark(${n.id})" class="w-8 h-8 flex items-center justify-center rounded-full hover:bg-slate-100" aria-label="Hapus dari tersimpan"><i class="fas fa-bookmark text-amber-500"></i></button>
+                    </div>`).join('')
+                : '<div class="text-center text-xs text-slate-400 border border-dashed border-slate-200 rounded-xl py-5 px-4">Belum ada catatan tersimpan. Ketuk ikon pita <i class="far fa-bookmark"></i> pada kartu catatan.</div>';
+        }
+
+        /* ============================================================
+           VOTING DINAMIS + KURASI
+           ============================================================ */
+        function castVote(direction) {
+            const n = getNote(state.currentId);
+            const cur = state.votes[n.id] || 0;
+            if (n.own) { showToast('Kamu tidak bisa menilai catatanmu sendiri'); return; }
+            const wasBad = n.score <= -5, wasVerified = n.score > 20;
+
+            if (cur === direction) {
+                n.score -= direction;
+                state.votes[n.id] = 0;
+                showToast('Vote dibatalkan');
+            } else {
+                n.score += direction - cur;
+                state.votes[n.id] = direction;
+                showToast(direction === 1 ? '👍 Upvote terkirim!' : '👎 Downvote terkirim!', direction === 1 ? 'success' : 'error');
+            }
+            renderDetail(true);
+            renderFeed();
+
+            if (!wasBad && n.score <= -5) setTimeout(() => showToast('⚠️ Skor di bawah -5: dokumen ditandai kurang sesuai', 'error'), 700);
+            if (!wasVerified && n.score > 20) setTimeout(() => showToast('✅ Dokumen kini Terverifikasi (Net Score > 20)', 'success'), 700);
+        }
+
+        /* ============================================================
+           FORUM: POSTING & LIKE
+           ============================================================ */
+        function submitPost() {
+            const input = document.getElementById('forum-input');
+            const text = input.value.trim();
+
+            if (!text) {
+                showToast('❌ Tulisan tidak boleh kosong!', 'error');
+                return;
+            }
+
+            const feed = document.getElementById('forum-feed');
+            const post = document.createElement('div');
+            post.className = 'border border-slate-200 rounded-xl p-4 bg-white';
+            post.innerHTML = `
+                <div class="flex items-center justify-between mb-3">
+                    <div class="flex items-center gap-2">
+                        <img src="https://ui-avatars.com/api/?name=${encodeURIComponent(USER.name)}&background=0284c7&color=fff" class="w-8 h-8 rounded-full">
+                        <div>
+                            <p class="text-xs font-bold text-slate-800">${USER.name} <i class="fas fa-medal text-yellow-500 ml-0.5"></i></p>
+                            <p class="text-[10px] text-slate-400">${PRODI[USER.prodi]} '${String(USER.angkatan).slice(2)} · Baru saja</p>
+                        </div>
+                    </div>
+                    <span class="text-[10px] font-bold bg-brand-100 text-brand-700 px-2 py-1 rounded-full">Diskusi</span>
+                </div>
+                <p class="text-sm text-slate-700 leading-relaxed mb-3"></p>
+                <div class="flex items-center gap-5 pt-3 border-t border-slate-100">
+                    <button onclick="togglePostLike(this)" class="flex items-center gap-1.5 text-xs font-medium text-slate-500 hover:text-rose-500 transition-colors">
+                        <i class="far fa-heart"></i> <span class="like-count">0</span>
+                    </button>
+                    <button onclick="showToast('Fitur komentar segera hadir')" class="flex items-center gap-1.5 text-xs font-medium text-slate-500 hover:text-brand-600 transition-colors">
+                        <i class="far fa-comment"></i> 0
+                    </button>
+                    <button onclick="showToast('Tautan disalin!', 'success')" class="flex items-center gap-1.5 text-xs font-medium text-slate-500 hover:text-brand-600 transition-colors ml-auto">
+                        <i class="fas fa-share"></i>
+                    </button>
+                </div>
+            `;
+            // Set text pakai textContent agar aman dari HTML injection
+            post.querySelector('p.text-sm').textContent = text;
+
+            feed.prepend(post);
+            input.value = '';
+            showToast('✅ Postingan berhasil dikirim!', 'success');
+        }
+
+        function togglePostLike(btn) {
+            const icon = btn.querySelector('i');
+            const countEl = btn.querySelector('.like-count');
+            let count = parseInt(countEl.innerText, 10);
+
+            if (btn.classList.contains('liked')) {
+                btn.classList.remove('liked', 'text-rose-500');
+                btn.classList.add('text-slate-500');
+                icon.classList.remove('fas');
+                icon.classList.add('far');
+                countEl.innerText = Math.max(0, count - 1);
+            } else {
+                btn.classList.add('liked', 'text-rose-500');
+                btn.classList.remove('text-slate-500');
+                icon.classList.remove('far');
+                icon.classList.add('fas');
+                countEl.innerText = count + 1;
+            }
+        }
+
+        /* ============================================================
+           TOAST NOTIFICATION
+           ============================================================ */
+        function showToast(message, type = 'info') {
+            const container = document.getElementById('toast-container');
+            const toast = document.createElement('div');
+
+            let bgClass = 'bg-slate-800';
+            if (type === 'success') bgClass = 'bg-emerald-600';
+            if (type === 'error') bgClass = 'bg-rose-600';
+
+            toast.className = bgClass + ' text-white px-4 py-3 rounded-lg shadow-xl text-sm font-medium flex items-center gap-2 toast-enter pointer-events-auto';
+            toast.innerHTML = '<span>' + message + '</span>';
+
+            container.appendChild(toast);
+
+            setTimeout(() => {
+                toast.style.opacity = '0';
+                toast.style.transform = 'translateY(-10px)';
+                toast.style.transition = 'all 0.3s ease';
+                setTimeout(() => toast.remove(), 300);
+            }, 3000);
+        }
+
+        /* ============================================================
+           INIT
+           ============================================================ */
+        updateUIBasedOnQuota();
+        buildCourseOptions();
+        renderFeed();
+        navigate('home');
+    </script>
+<script>
+(function () {
+  const ALLOWED_DOMAIN = 'student.upi.edu';   // ubah sesuai domain email kampus
+  const WELCOME_QUOTA = 2;
+  const DEMO_ACCOUNTS = [
+    { name: 'Javier MD',           email: 'javier.md@' + ALLOWED_DOMAIN },
+    { name: 'Javier MD (pribadi)', email: 'javier.md@gmail.com' }
+  ];
+  const K_USERS = 'catatukar_users', K_SESSION = 'catatukar_session', K_FLASH = 'catatukar_flash';
+  const mem = { users: {}, session: null };
+  const $ = id => document.getElementById(id);
+  let pending = null, current = null;
+
+  function readJSON(store, key, fb) { try { const v = store.getItem(key); return v ? JSON.parse(v) : fb; } catch (e) { return fb; } }
+  function getUsers() { return Object.assign({}, mem.users, readJSON(localStorage, K_USERS, {})); }
+  function saveUser(u) { mem.users[u.email] = u; try { const all = readJSON(localStorage, K_USERS, {}); all[u.email] = u; localStorage.setItem(K_USERS, JSON.stringify(all)); } catch (e) {} }
+  function saveSession(email, remember) { mem.session = { email }; try { (remember ? localStorage : sessionStorage).setItem(K_SESSION, JSON.stringify({ email, remember })); } catch (e) {} }
+  function loadSession() { try { return readJSON(localStorage, K_SESSION, null) || readJSON(sessionStorage, K_SESSION, null); } catch (e) { return mem.session; } }
+  function clearSession() { mem.session = null; try { localStorage.removeItem(K_SESSION); sessionStorage.removeItem(K_SESSION); } catch (e) {} }
+
+  const initials = n => n.trim().split(/\s+/).slice(0, 2).map(w => w[0]).join('').toUpperCase() || '?';
+  const titleCase = s => s.replace(/\b\w/g, c => c.toUpperCase());
+  const nameFromEmail = e => titleCase(e.split('@')[0].replace(/[0-9]+/g, '').replace(/[._-]+/g, ' ').trim()) || 'Mahasiswa';
+  const flex = (id, on) => { $(id).classList.toggle('hidden', !on); $(id).classList.toggle('flex', on); };
+  function show(id) {
+    ['s-login', 's-onboard', 's-home'].forEach(s => $(s).classList.toggle('hidden', s !== id));
+    $('auth-root').classList.remove('hidden'); $('auth-root').scrollTop = 0;
+  }
+
+  /* ---------- validasi ---------- */
+  function checkEmail(raw) {
+    const email = raw.trim().toLowerCase();
+    if (!email) return { ok: false, msg: 'Masukkan email kampusmu.' };
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return { ok: false, msg: 'Format email tidak valid.' };
+    const domain = email.split('@')[1];
+    if (domain === 'gmail.com') return { ok: false, msg: 'Akun gmail.com pribadi tidak diizinkan. Gunakan email kampus (@' + ALLOWED_DOMAIN + ').' };
+    if (domain !== ALLOWED_DOMAIN) return { ok: false, msg: 'Domain @' + domain + ' tidak terdaftar. Gunakan email @' + ALLOWED_DOMAIN + '.' };
+    return { ok: true, email };
+  }
+  function showErr(msg) {
+    const e = $('email-err'); e.querySelector('span').innerText = msg; e.classList.remove('hidden'); e.classList.add('flex');
+    const b = $('email-box'); b.classList.add('border-rose-400', 'shake'); setTimeout(() => b.classList.remove('shake'), 400);
+  }
+  function clearErr() { $('email-err').classList.add('hidden'); $('email-err').classList.remove('flex'); $('email-box').classList.remove('border-rose-400'); }
+
+  /* ---------- alur masuk ---------- */
+  function openChooser() {
+    $('chooser-list').innerHTML = DEMO_ACCOUNTS.map((a, i) => `<button onclick="pickAccount(${i})" class="w-full flex items-center gap-3 text-left p-3 rounded-xl hover:bg-slate-50">
+      <div class="w-10 h-10 rounded-full ${checkEmail(a.email).ok ? 'bg-brand-600' : 'bg-slate-400'} text-white flex items-center justify-center font-bold text-sm">${initials(a.name)}</div>
+      <div class="min-w-0"><p class="text-sm font-semibold truncate">${a.name}</p><p class="text-xs text-slate-500 truncate">${a.email}</p></div></button>`).join('');
+    flex('chooser', true);
+  }
+  function closeChooser() { flex('chooser', false); }
+  function pickAccount(i) { const a = DEMO_ACCOUNTS[i]; closeChooser(); $('email-input').value = a.email; authenticate(a.email, a.name); }
+  function submitEmail() { authenticate($('email-input').value); }
+
+  function authenticate(raw, name) {
+    const r = checkEmail(raw);
+    if (!r.ok) { showErr(r.msg); return; }
+    clearErr();
+    const steps = ['Menghubungkan ke Google...', 'Memverifikasi domain kampus...', 'Menyiapkan akunmu...'];
+    flex('loading', true);
+    steps.forEach((s, i) => setTimeout(() => $('loading-text').innerText = s, i * 650));
+    setTimeout(() => {
+      flex('loading', false);
+      const existing = getUsers()[r.email];
+      saveSession(r.email, $('remember').checked);
+      if (existing) renderWelcome(existing, false);
+      else { pending = { email: r.email, name: name || nameFromEmail(r.email) }; renderOnboard(); }
+    }, steps.length * 650);
+  }
+
+  /* ---------- onboarding ---------- */
+  function renderOnboard() {
+    $('ob-email').innerText = pending.email; $('ob-name').value = pending.name; $('ob-avatar').innerText = initials(pending.name);
+    $('ob-prodi').innerHTML = '<option value="">Pilih prodi</option>' + Object.entries(PRODI).map(([k, v]) => `<option value="${k}">${v}</option>`).join('');
+    let y = ''; for (let i = 2026 - 6; i <= 2026; i++) y += `<option value="${i}">${i}</option>`;
+    $('ob-angkatan').innerHTML = '<option value="">Pilih</option>' + y;
+    $('ob-agree').checked = false; validateOb(); show('s-onboard');
+  }
+  function validateOb() {
+    $('ob-avatar').innerText = initials($('ob-name').value);
+    $('ob-submit').disabled = !($('ob-name').value.trim().length >= 3 && $('ob-prodi').value && $('ob-angkatan').value && $('ob-agree').checked);
+  }
+  function finishOnboarding() {
+    const u = { email: pending.email, name: $('ob-name').value.trim(), prodi: $('ob-prodi').value, angkatan: +$('ob-angkatan').value, quota: WELCOME_QUOTA };
+    saveUser(u); pending = null; renderWelcome(u, true);
+  }
+
+  /* ---------- layar sambutan ---------- */
+  function renderWelcome(u, first) {
+    current = u;
+    $('hm-title').innerText = (first ? 'Selamat datang, ' : 'Halo lagi, ') + u.name.split(' ')[0] + '!';
+    $('hm-sub').innerText = first ? 'Akunmu aktif. Kamu mendapat ' + WELCOME_QUOTA + ' kuota unduh gratis.' : 'Kamu sudah masuk dengan akun kampus.';
+    $('hm-avatar').innerText = initials(u.name); $('hm-name').innerText = u.name; $('hm-email').innerText = u.email;
+    $('hm-meta').innerText = PRODI[u.prodi] + " '" + String(u.angkatan).slice(2);
+    $('hm-quota').innerText = u.quota; $('hm-sem').innerText = Math.max(1, (2026 - u.angkatan) * 2 + 1);
+    const remembered = !!readJSON(localStorage, K_SESSION, null);
+    $('hm-session').innerText = (remembered ? 'Sesi tersimpan di perangkat ini (tetap masuk). ' : 'Sesi berakhir saat tab ditutup. ') + 'Semester ' + SEMESTER_NOW + '.';
+    show('s-home');
+    if (first) showToast('🎉 +' + WELCOME_QUOTA + ' kuota selamat datang!', 'success');
+  }
+
+  /* ---------- masuk ke aplikasi ---------- */
+  function applyIdentity(u) {
+    const enc = encodeURIComponent(u.name), yy = String(u.angkatan).slice(2), prodi = PRODI[u.prodi] + " '" + yy;
+    document.querySelectorAll('img[data-me]').forEach(img => { const [bg, fg] = img.dataset.me.split(','); img.src = 'https://ui-avatars.com/api/?name=' + enc + '&background=' + bg + '&color=' + fg; });
+    $('profile-name').innerText = u.name; $('profile-prodi').innerText = prodi;
+    const ph = document.querySelector('[id-ph]'); if (ph) ph.placeholder = 'Apa yang ingin kamu tanyakan, ' + u.name.split(' ')[0] + '?';
+    const n3 = getNote(3); if (n3) { n3.author = u.name; n3.short = u.name.split(' ')[0] + ' ' + (u.name.split(' ')[1] || '')[0]; n3.sub = prodi; n3.av = u.name.replace(/ /g, '+'); }
+  }
+  function enterApp(u, quiet) {
+    current = u;
+    USER.name = u.name; USER.prodi = u.prodi; USER.angkatan = u.angkatan;
+    userSem = (2026 - u.angkatan) * 2 + 1;
+    state.userQuota = u.quota;
+    applyIdentity(u);
+    updateUIBasedOnQuota(); renderFeed(); navigate('home');
+    $('auth-root').classList.add('hidden');
+    if (quiet) showToast('Halo lagi, ' + u.name.split(' ')[0] + '!', 'success');
+  }
+  function authEnter() { enterApp(current, false); }
+  function authCancel() { clearSession(); pending = null; current = null; $('email-input').value = ''; clearErr(); show('s-login'); }
+  function openLogoutModal() { flex('logout-modal', true); }
+  function closeLogoutModal() { flex('logout-modal', false); }
+  function authLogout() { clearSession(); try { sessionStorage.setItem(K_FLASH, '1'); } catch (e) {} location.reload(); }
+  function authResetDemo() { if (current) { current.quota = 0; saveUser(current); } location.reload(); }
+  window.authPersistQuota = q => { if (current && $('auth-root').classList.contains('hidden')) { current.quota = q; saveUser(current); } };
+
+  Object.assign(window, { openChooser, closeChooser, pickAccount, submitEmail, clearErr, validateOb, finishOnboarding,
+    authEnter, authCancel, openLogoutModal, closeLogoutModal, authLogout, authResetDemo });
+
+  /* ---------- init ---------- */
+  $('domain-label').innerText = '@' + ALLOWED_DOMAIN;
+  $('email-input').placeholder = 'nama@' + ALLOWED_DOMAIN;
+  const s = loadSession(), u = s && getUsers()[s.email];
+  if (u) enterApp(u, true); else { show('s-login'); try { if (sessionStorage.getItem(K_FLASH)) { sessionStorage.removeItem(K_FLASH); showToast('Kamu sudah keluar.'); } } catch (e) {} }
+})();
+</script>
+</body>
+</html>
